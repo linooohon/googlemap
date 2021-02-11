@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd2fFmHB7xWd3E_Y3DWuVgomIqiclUkNE&callback=initMap&callback=initMap&libraries=&v=weekly"
+        defer></script>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> -->
+    <!-- <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script> -->
+    <style type="text/css">
+        #map {
+            height: 100%;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+        window.onload = (function () {
+            getData();
+        });
+
+        let jsonData;
+        let myNewArray = [];
+        let zIndex = 0;
+
+        function getData() {
+            fetch("https://bsopendata.azurewebsites.net/api/LeisureTravel/Attractions", {})
+                .then((response) => {
+                    console.log(response);
+                    return response.json();
+                })
+                .then((jsonData) => {
+                    transForm(jsonData);
+                    showFlag();
+                })
+                .catch((err) => {
+                    console.log("錯誤:", err);
+                });
+        }
+
+        function transForm(jsonObj) {
+            let target = jsonObj.XML_Head.Infos.Info;
+            target.forEach((item) => {
+                zIndex = zIndex + 1;
+                myNewObj = {
+                    id: item.Id,
+                    name: item.Name,
+                    description: item.Description,
+                    tel: item.Tel,
+                    address: item.Add,
+                    region: item.Region,
+                    town: item.Town,
+                    px: item.Px,
+                    py: item.Py,
+                    zindex: zIndex
+                }
+                myNewArray.push(myNewObj)
+            });
+        }
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 12,
+                center: new google.maps.LatLng(25.0248603, 121.522363),
+                // mapTypeId: "terrain",
+            });
+        }
+        // const shape = {
+        //   coords: [1, 1, 1, 20, 18, 20, 18, 1],
+        //   type: "poly",
+        // };
+
+        function showFlag() {
+            countRegionFunc();
+            countTownFunc();
+            myNewArray.forEach((element) => {
+                // console.log(element.region);
+                if (element.region == "桃園市") {
+                    new google.maps.Marker({
+                        position: {
+                            lat: element.py,
+                            lng: element.px
+                        },
+                        map: map,
+                        // shape: shape
+                    });
+                }
+            });
+        }
+
+
+        let countRegion = [];
+
+        function countRegionFunc() {
+            myNewArray.forEach((element) => {
+                countRegion.push(element.region);
+            });
+            console.log(countRegion);
+
+            let result = countRegion.sort().reduce((init, current) => {
+                if (init.length === 0 || init[init.length - 1] !== current) {
+                    init.push(current);
+                }
+                return init;
+            }, []);
+            console.log(result);
+        }
+
+
+        let countTown = [];
+
+        function countTownFunc() {
+            myNewArray.forEach((element) => {
+                if (element.region == "桃園市") {
+                    countTown.push(element.town);
+                }
+            });
+            console.log(countTown);
+
+            let result = countTown.sort().reduce((init, current) => {
+                if (init.length === 0 || init[init.length - 1] !== current) {
+                    init.push(current);
+                }
+                return init;
+            }, []);
+            console.log(result);
+        }
+    </script>
+</body>
+
+</html>

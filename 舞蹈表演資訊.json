@@ -1,0 +1,2187 @@
+[
+    {
+        "version": "1.4",
+        "UID": "5eff67ebd083a36dcc0f9dc1",
+        "title": "《聖城～赫里奧斯》",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/23 15:00:00",
+                "location": "台北市文山區木柵路三段66巷8之1號",
+                "locationName": "國立臺灣戲曲學院木柵演藝中心",
+                "onSales": "Y",
+                "price": "1500、1200",
+                "latitude": "24.9869165",
+                "longitude": "121.5667027",
+                "endTime": "2021/01/23 17:00:00"
+            },
+            {
+                "time": "2021/01/23 19:30:00",
+                "location": "台北市文山區木柵路三段66巷8之1號",
+                "locationName": "國立臺灣戲曲學院木柵演藝中心",
+                "onSales": "Y",
+                "price": "1500、1200",
+                "latitude": "24.9869165",
+                "longitude": "121.5667027",
+                "endTime": "2021/01/23 21:30:00"
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID\u003dN0FUOZDD",
+        "sourceWebPromote": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID\u003dN0FUOZDD",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "年代",
+        "startDate": "2021/01/23",
+        "endDate": "2021/01/23",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5f6cd1a2d083a35edcf6b36f",
+        "title": "索拉舞蹈空間2020年度製作《太倉一粟》",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/22 19:30:00",
+                "location": "臺北市中正區八德路一段1號",
+                "locationName": "華山1914文創園區東3館 烏梅劇院",
+                "onSales": "Y",
+                "price": "500",
+                "latitude": "25.0433045",
+                "longitude": "121.5292957",
+                "endTime": ""
+            },
+            {
+                "time": "2021/01/23 19:30:00",
+                "location": "臺北市中正區八德路一段1號",
+                "locationName": "華山1914文創園區東3館 烏梅劇院",
+                "onSales": "Y",
+                "price": "500",
+                "latitude": "25.0433045",
+                "longitude": "121.5292957",
+                "endTime": ""
+            },
+            {
+                "time": "2021/01/24 14:30:00",
+                "location": "臺北市中正區八德路一段1號",
+                "locationName": "華山1914文創園區東3館 烏梅劇院",
+                "onSales": "Y",
+                "price": "500",
+                "latitude": "25.0433045",
+                "longitude": "121.5292957",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "＊索拉之友憑(驗證碼)每筆訂單打85折。\n\n＊刷中國信託卡每筆訂單打85折。\n\n＊刷台北富邦信用卡每筆訂單打85折。\n\n＊刷玉山卡每筆訂單打85折。\n\n＊刷國泰世華銀行信用卡每筆訂單打85折。\n\n",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "索拉舞蹈空間舞團 07-5581223"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteQsWWCGRMXrcw",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/01/22",
+        "endDate": "2021/01/24",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5f88815cd083a35edcf6bc2f",
+        "title": "不被遺忘的故事－天光",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/16 15:00:00",
+                "location": "高雄市鳳山區三多一路1號",
+                "locationName": "衛武營國家藝術文化中心戲劇院",
+                "onSales": "Y",
+                "price": "300,500,800",
+                "latitude": "22.624172",
+                "longitude": "120.3422105",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "＊玉劇場之友 8折。\n\n＊兩廳院之友 9折。\n\n＊衛武營生活卡 9折。\n\n＊衛武營青年卡 9折。\n\n＊衛武營無限卡 9折。\n\n＊廳院青 9折。\n\n＊誠品會員 9折。\n\n＊刷上海商業銀行信用卡 9折。\n\n＊刷國泰世華銀行信用卡 9折。\n\n＊刷新光銀行信用卡 9折。\n\n＊團體票量20張以上 8折。\n\n",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "Jade Dance Theatre玉舞蹈劇場"
+        ],
+        "subUnit": [],
+        "supportUnit": [
+            "台北市文化局",
+            "國家文化藝術基金會",
+            "上海商銀文教基金會",
+            "吳尊賢文教基金會"
+        ],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteTFBoKogN3pFw",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/01/16",
+        "endDate": "2021/01/16",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5f95b040d083a35edcf6c094",
+        "title": "2021安琪藝術舞蹈團創新製作《我們肆人》",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/16 19:30:00",
+                "location": "台南市中華東路3段332號",
+                "locationName": "臺南文化中心原生劇場",
+                "onSales": "Y",
+                "price": "500",
+                "latitude": "22.9747368",
+                "longitude": "120.2215814",
+                "endTime": ""
+            },
+            {
+                "time": "2021/01/17 14:30:00",
+                "location": "台南市中華東路3段332號",
+                "locationName": "臺南文化中心原生劇場",
+                "onSales": "Y",
+                "price": "500",
+                "latitude": "22.9747368",
+                "longitude": "120.2215814",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "＊團體購滿總數量20張以上每筆訂單打8折。\n\n",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "安琪藝術舞蹈團06-2672853"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteQwy1nvfUM%2fEg",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/01/16",
+        "endDate": "2021/01/17",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5f986fa9d083a34ec4da019a",
+        "title": "《星圖》古名伸Ｘ李小平／古舞團",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/22 14:45:00",
+                "location": "臺北市士林區文林路751號",
+                "locationName": "臺灣戲曲中心",
+                "onSales": "Y",
+                "price": "/+900;/+1100;/+1800",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/24 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)古名伸;(中華民國)李小平",
+        "discountInfo": "1800元(藝文贊助票，無優惠折扣)",
+        "descriptionFilterHtml": "【演出資訊】\r\n◇2021/01/22(五)19:45-21:00\r\n◇2021/01/23(六)19:45-21:00\r\n◇2021/01/24(日)14:45-16:00\r\n◇演出地點：小表演廳\r\n◇演出長度：70分鐘（無中場休息）\r\n◇注意事項：\r\n◆本演出2021/01/23(六)19:45場次將架機錄影。\r\n\r\n【節目介紹】\r\n編舞家林懷民形容古名伸是臺灣第一代舞蹈實驗班、舞蹈科班養成的跳舞人。她一路從芭蕾、民族舞蹈走到現代舞，最後著迷於沒有套路、限制與預設立場的接觸即興技巧，她的作品往往不帶著故事來，她的身體就是故事。\r\n李小平，九歲京劇坐科，在嚴格的套路、招式養成中，學習戲曲的身體規範，什麼天賦就被分配到專攻什麼行當，戲曲演員一生被定格在「角色 」中。在他的詮釋下，角色跨越時代，並從傳統刻畫中脫離框架，享有自由。\r\n《星圖》試圖連結古名伸與李小平—兩位臺灣過去三十年來文化藝術發展鼎盛中之創作大將，進行一場身體文化的辯論。試圖找尋一個敘事脈絡，能夠同時乘載兩位創作者深厚的表演背景，呈現兩位創作者一生的追尋筆記。\r\n\r\n【劇情簡介】\r\n這是一場無法迴避的告別式\r\n死亡像是令人睜不開眼的太陽\r\n回憶，如夢魘，在人生的星圖上，擅自塗抹\r\n\r\n一次遠行\r\n一場跋涉\r\n一趟回歸\r\n\r\n他有他放不下的期待，她有她捨不下的過去。\r\n相遇於一場告別式，在夢與記憶的迷霧裡，如何出走？如何回歸？如何揮灑出滿天的星？\r\n\r\n如蝴蝶振翅的影響，也許生命中會因霎時相遇的那個他，而解開以為已經鎖死的謎，打不開的執念。\r\n如都卜勒效應的反射，讓你和我能夠藉由彼此的移動，一步步探索未知的領域。\r\n夜空下，我們舞動，我們歌唱，我們諦聽星星與星星彼此錯落的距離。\r\n\r\n你歌我舞，掌起星圖\r\n在夢與記憶的迷霧中破浪前行\r\n一齊諦聽星星與星星彼此錯落的距離\r\n航向生命中的和解\r\n\r\n【演出團隊】\r\n古舞團成立於1993年，由編舞家古名伸所創立，演出足跡遍及世界各地。自創團以來就積極地推廣即興舞蹈表演及各種創作的舞蹈方式與觀念。除了演出與推廣，舞團也不斷推出現代舞編創作品，屢屢受邀赴國際演出。2011年起，策劃與日、港、韓結盟的雙年舞展「i-dance」國際愛跳舞即興節，邀請國際間的即興好手來台和本地舞者交流演出。\r\n\r\n【票價】\r\n新臺幣900元、1100元、1800元(藝文贊助票，無優惠折扣)。\r\n\r\n演出單位／策畫者：古舞團\r\n主辦單位：國立傳統藝術中心\r\n指導單位：文化部\r\n*更多相關資訊隨時更新\r\n*主辦單位保有節目異動的權利",
+        "imageUrl": "",
+        "masterUnit": [
+            "國立傳統藝術中心"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/NewSitePages/Default.aspx",
+        "sourceWebPromote": "https://tttc.ncfta.gov.tw/home/zh-tw/activities/11531",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/22",
+        "endDate": "2021/01/24",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5f9af63dd083a378b43a2151",
+        "title": "第十二屆台北國際芭蕾舞大賽~2021年度新作~主題變奏曲 \u0026 探戈",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/02/06 14:00:00",
+                "location": "臺北市延平南路98號",
+                "locationName": "臺北市中山堂中正廳",
+                "onSales": "Y",
+                "price": "400,600,800,1000",
+                "latitude": "25.0425041",
+                "longitude": "121.5103541",
+                "endTime": ""
+            },
+            {
+                "time": "2021/02/06 19:00:00",
+                "location": "臺北市延平南路98號",
+                "locationName": "臺北市中山堂中正廳",
+                "onSales": "Y",
+                "price": "400,600,800,1000",
+                "latitude": "25.0425041",
+                "longitude": "121.5103541",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "＊兩廳院之友 9折。\n\n",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "台北皇家芭蕾舞團"
+        ],
+        "subUnit": [
+            "臺北市立大學"
+        ],
+        "supportUnit": [
+            "國家文化藝術基金會"
+        ],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteQA7dkhEz7laQ",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/02/06",
+        "endDate": "2021/02/06",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5f9eeac5d083a378b43a22b4",
+        "title": "無限—infinity",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/13 19:30:00",
+                "location": "高雄市苓雅區五福一路67號",
+                "locationName": "高雄市文化中心至德堂",
+                "onSales": "Y",
+                "price": "200,300,400",
+                "latitude": "22.6257981",
+                "longitude": "120.31814",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "＊團體票20張(含)以上享8折優惠。\n\n",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "高雄市苓雅區中正國民小學"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteQRJSywjO6pOw",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/01/13",
+        "endDate": "2021/01/13",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fba545cd083a34ac8829a70",
+        "title": "2105社交舞進階乙班 (楊裕華/張木英)",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/09 09:30:00",
+                "location": "105  臺北市松山區八德路三段25號(臺北市藝文推廣處)",
+                "locationName": "501教室",
+                "onSales": "Y",
+                "price": "2000",
+                "latitude": "25.0483541",
+                "longitude": "121.5523447",
+                "endTime": "2021/06/15 09:30:00"
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "",
+        "descriptionFilterHtml": "由淺入深，指導學員摩登舞與拉丁舞花步及技巧，訓練學員對舞蹈音樂的認識；參加學員需具備初級社交舞基礎。本班為進階班，需老師更細心指導及更大空間流動，本班限招生30人。\r\n\t\t\r\n\t\r\n\r\n\r\n\r\n\r\n \r\n\r\n報名期間：2021/02/01~2021/02/05",
+        "imageUrl": "",
+        "masterUnit": [
+            "臺北市藝文推廣處"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://event.culture.tw/TAPO/portal/Registration/C0103MAction?actId\u003d00079",
+        "sourceWebPromote": "https://event.culture.tw/TAPO",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "藝文活動報名平台",
+        "startDate": "2021/03/09",
+        "endDate": "2021/06/15",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fba545fd083a34ac8829a7e",
+        "title": "2211民族舞蹈初級甲班 (李致慧)",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/09 14:00:00",
+                "location": "105  臺北市松山區八德路三段25號(臺北市藝文推廣處)",
+                "locationName": "B1舞蹈教室",
+                "onSales": "Y",
+                "price": "2000",
+                "latitude": "25.0483541",
+                "longitude": "121.5523447",
+                "endTime": "2021/06/15 14:00:00"
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "",
+        "descriptionFilterHtml": "以正統的民族舞蹈基本身段，融合現代芭蕾的肢體伸展，搭配現代優美流行歌曲、各地方戲曲與民謠，展現其獨特的舞蹈風格，讓學員可以輕鬆地學習(僅招收女性學員)。本期授課舞蹈: 1.花開蝶舞一舞飄扇(古典民俗舞蹈)。2.康定情歌(邊疆舞蹈)。(教材自行購買)\r\n\t\t\r\n\t\r\n\r\n\r\n \r\n\r\n2211民族舞蹈初級甲班課程規劃表 請點此連結\r\n\r\n報名期間：2021/02/01~2021/02/05",
+        "imageUrl": "",
+        "masterUnit": [
+            "臺北市藝文推廣處"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://event.culture.tw/TAPO/portal/Registration/C0103MAction?actId\u003d00093",
+        "sourceWebPromote": "https://event.culture.tw/TAPO",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "藝文活動報名平台",
+        "startDate": "2021/03/09",
+        "endDate": "2021/06/15",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fba545fd083a34ac8829a82",
+        "title": "2305社交舞初級乙班 (胡清媛)",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/09 19:00:00",
+                "location": "105  臺北市松山區八德路三段25號(臺北市藝文推廣處)",
+                "locationName": "501教室",
+                "onSales": "Y",
+                "price": "2000",
+                "latitude": "25.0483541",
+                "longitude": "121.5523447",
+                "endTime": "2021/06/15 19:00:00"
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "",
+        "descriptionFilterHtml": "臺北市藝文推廣處110年春季 班別序號(數字): 2305\r\n\r\n\t\t\t班名(中文):   社交舞乙班　  課程規劃表　  教師：胡清媛\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t項次\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t日期\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t教  學  內  容\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第1堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/9\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 三步的吉魯巴，用的方法前點小姆指，後點大姆指。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第2堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/16\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 身體要在中間，不要後仰或拉對方。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第3堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/23\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 教一些簡單易跳的花步，如交換。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第4堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/30\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 再來碰碰步的一些花招。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第5堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/6\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 倫巴的基本步，它的重拍在第四拍。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第6堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/13\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 倫巴的基本延展骨正氣長筋柔肌有力。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第7堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/20\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 倫巴的基本一些花招等會了再有進展。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第8堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/27\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 倫巴不是搖來搖去的，身體是重心的轉換。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第9堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/4\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 恰恰恰的基本步，不能跳起來。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第10堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/11\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 恰恰恰是4拍5步，倫巴是 4拍三步不同。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第11堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/18\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 恰恰恰的花步，三段到四段。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第12堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/25\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 恰恰跟倫巴的跳法一樣，不能亂搖。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第13堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/1\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 華爾滋是三拍，它是有升降，是跟掌尖。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第14堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/8\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 華爾滋是二個人抱的，男生引導女生要跟隨。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第15堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/15\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 基本的一些花步，加一步的跳法，如一加二三或一二加三或一\r\n\r\n\t\t\t 二三加。\r\n\t\t\t\r\n\t\t\r\n\t\r\n\r\n\r\n本班每逢星期 二 (上/下)午 　19 : 00　至　21：00　上課\r\n\r\n報名期間：2021/02/01~2021/02/05",
+        "imageUrl": "",
+        "masterUnit": [
+            "臺北市藝文推廣處"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://event.culture.tw/TAPO/portal/Registration/C0103MAction?actId\u003d00097",
+        "sourceWebPromote": "https://event.culture.tw/TAPO",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "藝文活動報名平台",
+        "startDate": "2021/03/09",
+        "endDate": "2021/06/15",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fba5463d083a34ac8829a96",
+        "title": "5305爵士舞進階班 (陳宛琳)",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/05 19:00:00",
+                "location": "105  臺北市松山區八德路三段25號(臺北市藝文推廣處)",
+                "locationName": "501教室",
+                "onSales": "Y",
+                "price": "2500",
+                "latitude": "25.0483541",
+                "longitude": "121.5523447",
+                "endTime": "2021/06/18 19:00:00"
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "",
+        "descriptionFilterHtml": " \r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t臺北市藝文推廣處109年春季 班別序號:5305  (原3205) \r\n\r\n\t\t\t5305爵士舞進階班　課程規劃表　教師：陳宛琳(Lidia)　\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t項次\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t日期\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t教學內容\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第1堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/5\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士文化介紹、爵士舞基本腳步，舞碼練習\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第2堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/12\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士舞基本腳步、由脊椎開始簡介身體結構並練習基本動作，舞碼練習。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第3堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/19\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士基本-臀部isolation、基礎律動、走步、介紹骨盆、髖關節等身體結構，舞碼練習。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第4堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/26\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士基本-臀部isolation、走步、介紹脊椎較細 部結構，舞碼練習。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第5堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/9\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士基本練習、流動、介紹脊椎長度與呼吸的 關係，舞碼練習。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第6堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/16\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士基本練習、流動、介紹肩部活動的骨骼變 化，舞碼練習。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第7堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/23\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士基本練習、流動、介紹舞蹈理論之父拉 邦，舞碼練習。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第8堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/30\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士基本練習、流動、簡介拉邦舞譜，舞碼練 習。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第9堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/7\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士基本練習、流動、應用拉邦理論在動作 上，舞碼練習。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第10堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/14\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士基本練習、拉邦元素應用、流動、舞碼練 習。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第11堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/21\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士基本練習、流動、舞碼練習，練習學期演出舞碼。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第12堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/28\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士基本練習、流動、應用拉邦理論練習走位，舞碼練習。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第13堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/4\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士基本練習、流動、表演方法介紹與實際運用，舞碼練習\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第14堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/11\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t爵士基本練習、流動、表演方法介紹與實際運用，舞碼練習\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第15堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/18\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t成果發表 (配合表訂時間調整日期)\r\n\t\t\t\r\n\t\t\r\n\t\r\n\r\n\r\n \r\n\r\n本班每逢星期五  19　:　00　至　21：00　上課     \r\n\r\n報名期間：2021/02/01~2021/02/05",
+        "imageUrl": "",
+        "masterUnit": [
+            "臺北市藝文推廣處"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://event.culture.tw/TAPO/portal/Registration/C0103MAction?actId\u003d00111",
+        "sourceWebPromote": "https://event.culture.tw/TAPO",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "藝文活動報名平台",
+        "startDate": "2021/03/05",
+        "endDate": "2021/06/18",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fba5465d083a34ac8829aa7",
+        "title": "5105活力熱舞班 (歐家齊)",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/06 09:30:00",
+                "location": "105  臺北市松山區八德路三段25號(臺北市藝文推廣處)",
+                "locationName": "501教室",
+                "onSales": "Y",
+                "price": "2000",
+                "latitude": "25.0483541",
+                "longitude": "121.5523447",
+                "endTime": "2021/06/19 09:30:00"
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "",
+        "descriptionFilterHtml": " \r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t臺北市藝文推廣處110年春季\r\n\r\n\t\t\t5105活力熱舞班　課程規劃表　教師：歐家齊\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t項次\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t日期\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t教學內容\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第1堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/5\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t認識爵士舞並著重於先讓學員瞭解身體的各個關節、暖身。\r\n\r\n\t\t\t第一首舞碼教學。\r\n\r\n\t\t\t \r\n\r\n\t\t\t第2堂課 8/28 暖身、關節活動、肌肉的延展以及肌肉的肌耐力的訓練、動作\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第2堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/12\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、關節活動、肌肉的延展以及肌肉的肌耐力的訓練、動作\r\n\r\n\t\t\t分解。完成舞碼的1/4,並加以練習至熟練。\r\n\r\n\t\t\t分解。完成舞碼的1/4,並加以練習至熟練。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第3堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/19\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、關節活動、肌肉的延展以及肌肉的肌耐力及爆發力的訓練,並要求正確度、動作分解。舞碼複習及新進度教學。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第4堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/26\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、關節的運用加上腳上的步伐以訓練協調度、動作分解。 完成舞碼的2/4,並加以練習至熟練。\r\n\r\n\t\t\t \r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第5堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/9\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、關節的運用以及延展動作加上腳上的步伐、動作分解。 舞碼複習及新進度教學。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第6堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/16\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、關節運用、延展動作的流動、動作分解。\r\n\r\n\t\t\t完成舞碼的3/4,並加以練習至熟練。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第7堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t  4/23\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、關節運用、延展動作的流動,加強爆發力的動作訓練、動作分解。完成第一首舞碼。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第8堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/30\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、關節的運用以及延展動作加上腳上的步伐、動作分解。 複習第一首舞碼,教學第二首舞碼。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第9堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/7\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、訓練協調以及方向感分解動作加上音樂。\r\n\r\n\t\t\t完成舞碼的1/4,並加以練習至熟練。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第10堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/14\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、訓練學員瞭解並運用空間的變化、分解動作加上音樂。 舞碼複習及新進度教學。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第11堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/21\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、要求音樂的準確、身體的協調及動作的美感,分解動作加上音樂。完成舞碼的1/2,並加以練習至熟練。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第12堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/28\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、身體的協調及動作的美感,分解動作加上音樂。\r\n\r\n\t\t\t舞碼複習及新進度教學。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第13堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/4\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、要求學生舞碼中音樂的準確、身體的協調及動作的美感,加入情感及生動的表情。完成第二首舞碼。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第14堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/11\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、要求學生舞碼中音樂的準確、身體的協調及動作的美感,加入情感及生動的表情,達到開心舞蹈肢體。\r\n\r\n\t\t\t加入情感及生動的表情,達到開心舞蹈肢體。\r\n\r\n\t\t\t \r\n\r\n\t\t\t加入情感及生動的表情,達到開心舞蹈肢體。\r\n\r\n\t\t\t \r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第15堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/18\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t暖身、練習兩首舞碼。\r\n\r\n\t\t\t期末成果展！\r\n\t\t\t\r\n\t\t\r\n\t\r\n\r\n\r\n本班每逢星期  五  上午09:30至11：30上課     \r\n\r\n報名期間：2021/02/01~2021/02/05",
+        "imageUrl": "",
+        "masterUnit": [
+            "臺北市藝文推廣處"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://event.culture.tw/TAPO/portal/Registration/C0103MAction?actId\u003d00141",
+        "sourceWebPromote": "https://event.culture.tw/TAPO",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "藝文活動報名平台",
+        "startDate": "2021/03/06",
+        "endDate": "2021/06/19",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fba5466d083a34ac8829aac",
+        "title": "5111踢踏舞初級班 (談至傑)",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/05 09:30:00",
+                "location": "105  臺北市松山區八德路三段25號(臺北市藝文推廣處)",
+                "locationName": "B1舞蹈教室",
+                "onSales": "Y",
+                "price": "2000",
+                "latitude": "25.0483541",
+                "longitude": "121.5523447",
+                "endTime": "2021/06/18 09:30:00"
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "",
+        "descriptionFilterHtml": "臺北市藝文推廣處109年春季文化藝術研習班教師續聘意願徵詢表\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t班別名稱\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5111踢踏舞初級班\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t班別序號\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5111\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t姓　　名\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t談至傑\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t續任意願\r\n\t\t\t\r\n\t\t\t\r\n\t\t\tV願意    □不願意\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t上課時段\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t星期五 【上午】\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t使用教室\r\n\t\t\t\r\n\t\t\t\r\n\t\t\tB1  教室\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t電話/\r\n\r\n\t\t\t手機號碼\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t0926873772\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t招生人數\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t        20\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t地址\r\n\r\n\t\t\temail\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t台中市西屯區協和里順和一街59號6樓之2\r\n\r\n\t\t\ttan10022002@gmail.com\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t109年春季招生簡章內容（約80字）\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t美式踢踏舞是一種《自由》的舞蹈，肢體隨著音樂的節奏，無拘無束隨興擺動，配合簡單的踢踏舞腳法，音樂與踢踏聲結合，呈現出輕鬆愉快的舞蹈。\r\n\r\n\t\t\t每一學期都會讓學生學習到完整的一首舞，在學期末呈現\r\n\r\n\t\t\t \r\n\r\n\t\t\t \r\n\r\n\t\t\t \r\n\r\n\t\t\t \r\n\r\n\t\t\t \r\n\r\n\t\t\t \r\n\r\n\t\t\t \r\n\r\n\t\t\t \r\n\r\n\t\t\t \r\n\r\n\t\t\t \r\n\r\n\t\t\t \r\n\r\n\t\t\t重要：數位鋼琴/電子琴班請填寫教材使用五線譜或簡譜\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t【必填】\r\n\r\n\t\t\t上課各項費用\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t□新生教材     元       V上課用具自行購買\r\n\r\n\t\t\t□舊生教材     元       □其他（                       ）\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t109年春季班開課日\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t109年3月2日（星期一）起陸續開課\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t※為利招生作業，本表及109年春季課程規畫表(15堂)請務必於108年11月23日(六)前繳回。亦可將電子檔電郵 tm-chc@mail.taipei.gov.tw\r\n\r\n\t\t\t（電話：25775931#345或25787769）\r\n\t\t\t\r\n\t\t\r\n\t\r\n\r\n\r\n※109年春季課程規畫表：109年4/2-4/4為清明節連假不排課，15堂課\r\n\r\n  請務必敘明日期，109年春季課程請於6/20結束。\r\n\r\n※單師資班20-30人(最低招生人數20人)、雙師資班40-50人(最低招生\r\n\r\n  人數40人)，學費2,000元\r\n\r\n※特殊班(單師資)15-20人(最低招生人數15人)，學費2,500元。特殊需\r\n\r\n  求請另外提出申請。\r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t臺北市藝文推廣處109年春季 班序號(數字):5111   \r\n\r\n\t\t\t班名(中文):踢踏舞初級班　課程規劃表　教師：談至傑\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t項次\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t日期\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t教學內容\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第1堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/5\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.基本練習(ball heel step)3.流動練習\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第2堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/12\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.基本練習(ball heel step stamp)3.流動練習\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第3堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/19\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.基本練習(shuffle hop)3.流動練習\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第4堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/26\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.基本練習3.流動練習(flap)4.舞曲編排\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第5堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/9\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.組合\u003c1\u003e 3.流動練習4.舞曲編排\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第6堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/16\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.組合\u003c2\u003e 3.流動練習4.舞曲編排\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第7堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t 4/23\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.組合\u003c3\u003e 3.流動練習4.舞曲編排\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第8堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/30\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.組合\u003c4\u003e 3.流動練習4.舞曲編排\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第9堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/7\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.組合\u003c5\u003e 3.流動練習4.舞曲編排\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第10堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/14\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.組合\u003c6\u003e 3.流動練習4.舞曲編排\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第11堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/21\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.組合\u003c7\u003e 3.流動練習4.舞曲編排\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第12堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/28\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.組合\u003c8\u003e 3.流動練習4.舞曲編排\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第13堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/4\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.組合\u003c9\u003e 3.流動練習4.舞曲編排\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第14堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/11\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t1.暖身 2.組合\u003c10\u003e 3.流動練習4.舞曲編排\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第15堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/18\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t成果發表\r\n\t\t\t\r\n\t\t\r\n\t\r\n\r\n\r\n本班每逢星期五 (上)午09:30至11：30上課\r\n\r\n報名期間：2021/02/01~2021/02/05",
+        "imageUrl": "",
+        "masterUnit": [
+            "臺北市藝文推廣處"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://event.culture.tw/TAPO/portal/Registration/C0103MAction?actId\u003d00146",
+        "sourceWebPromote": "https://event.culture.tw/TAPO",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "藝文活動報名平台",
+        "startDate": "2021/03/05",
+        "endDate": "2021/06/18",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fbbeb9fd083a34ac8829b04",
+        "title": "高雄城市芭蕾舞團-創作芭蕾-《2021點子鞋Dance Shoe》",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/23 19:30:00",
+                "location": "高雄市苓雅區五福一路67號",
+                "locationName": "高雄市文化中心至善廳",
+                "onSales": "Y",
+                "price": "500",
+                "latitude": "22.6257981",
+                "longitude": "120.31814",
+                "endTime": ""
+            },
+            {
+                "time": "2021/01/30 14:30:00",
+                "location": "台南市中華東路3段332號",
+                "locationName": "臺南文化中心原生劇場",
+                "onSales": "Y",
+                "price": "500",
+                "latitude": "22.9747368",
+                "longitude": "120.2215814",
+                "endTime": ""
+            },
+            {
+                "time": "2021/01/30 19:30:00",
+                "location": "台南市中華東路3段332號",
+                "locationName": "臺南文化中心原生劇場",
+                "onSales": "Y",
+                "price": "500",
+                "latitude": "22.9747368",
+                "longitude": "120.2215814",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "＊啟碁科技公司員工(請輸入優惠代碼)每筆訂單打8折。\n\n＊誠品會員每筆訂單打9折。\n\n＊兩廳院之友每筆訂單打9折。\n\n＊刷台北富邦信用卡每筆訂單打9折。\n\n＊刷台新信用卡每筆訂單打9折。\n\n＊刷台新游藝卡每筆訂單打9折。\n\n＊刷玉山卡每筆訂單打9折。\n\n＊刷國泰世華銀行信用卡每筆訂單打9折。\n\n",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "高雄城市芭蕾舞團 07-7715483"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteThJguZvzkRow",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/01/23",
+        "endDate": "2021/01/30",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fc6777ed083a386a8834ee3",
+        "title": "皇家兒童舞蹈團-迪士尼公主教會我的事",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/06 19:30:00",
+                "location": "臺中市學士路98號",
+                "locationName": "臺中市中山堂",
+                "onSales": "Y",
+                "price": "300,600",
+                "latitude": "24.155298",
+                "longitude": "120.682756",
+                "endTime": ""
+            },
+            {
+                "time": "2021/03/07 14:30:00",
+                "location": "臺中市學士路98號",
+                "locationName": "臺中市中山堂",
+                "onSales": "Y",
+                "price": "300,600",
+                "latitude": "24.155298",
+                "longitude": "120.682756",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "＊團體票購滿總數量10張以上每筆訂單打8折。\n\n",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "皇家兒童舞蹈團"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteT4y8ipHwfeEw",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/03/06",
+        "endDate": "2021/03/07",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fca6be3d083a386a88350b2",
+        "title": "《巢》2021巡迴演出─稻草人現代舞團",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/27 19:30:00",
+                "location": "高雄市鳳山區三多一路1號",
+                "locationName": "衛武營國家藝術文化中心戲劇院",
+                "onSales": "Y",
+                "price": "300,500,800",
+                "latitude": "22.624172",
+                "longitude": "120.3422105",
+                "endTime": ""
+            },
+            {
+                "time": "2021/03/28 14:30:00",
+                "location": "高雄市鳳山區三多一路1號",
+                "locationName": "衛武營國家藝術文化中心戲劇院",
+                "onSales": "Y",
+                "price": "300,500,800",
+                "latitude": "22.624172",
+                "longitude": "120.3422105",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "＊「稻草人之友」輸入(專案序號)購票享8折優惠。\n\n＊衛武營生活卡每筆訂單打9折。\n\n＊衛武營青年卡每筆訂單打9折。\n\n＊衛武營無限卡每筆訂單打9折。\n\n＊刷國泰世華銀行信用卡每筆訂單打9折。\n\n＊至1/31 止早鳥每筆訂單打7折。\n\n＊團體購滿總數量10張以上每筆訂單打85折。\n\n＊團體購滿總數量20張以上每筆訂單打8折。\n\n",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "稻草人現代舞蹈團 06-2253218"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteQ6rJskcjKo2g",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/03/27",
+        "endDate": "2021/03/28",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fce607ad083a386a8835190",
+        "title": "【戲夢華筵】陳姿玲個人製作",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/16 19:30:00",
+                "location": "員林市大饒里員林大道二段99號",
+                "locationName": "彰化縣文化局員林演藝廳表演廳",
+                "onSales": "Y",
+                "price": "200,300,500,800",
+                "latitude": "23.9487743",
+                "longitude": "120.5761383",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "＊團體票購滿總數量20張以上每筆訂單打8折。\n\n",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "國立臺灣體育運動大學"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteRIiY%2fGiX3x4w",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/01/16",
+        "endDate": "2021/01/16",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fd103a8d083a386a8835252",
+        "title": "2021國立臺灣藝術大學舞蹈學系日間學士班畢業製作《最後一次毛躁》",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/13 19:30:00",
+                "location": "花蓮市文復路6號",
+                "locationName": "花蓮縣文化局演藝堂演藝廳",
+                "onSales": "Y",
+                "price": "200",
+                "latitude": "23.9899822",
+                "longitude": "121.6287389",
+                "endTime": ""
+            },
+            {
+                "time": "2021/03/18 19:30:00",
+                "location": "高雄市鳳山區光遠路161號",
+                "locationName": "大東文化藝術中心",
+                "onSales": "Y",
+                "price": "400,600,800,1000",
+                "latitude": "22.6247642",
+                "longitude": "120.3634355",
+                "endTime": ""
+            },
+            {
+                "time": "2021/03/27 19:30:00",
+                "location": "新北市板橋區大觀路一段59號",
+                "locationName": "臺藝表演廳",
+                "onSales": "Y",
+                "price": "400,600,800,1000",
+                "latitude": "25.0059488",
+                "longitude": "121.4476306",
+                "endTime": ""
+            },
+            {
+                "time": "2021/03/28 14:30:00",
+                "location": "新北市板橋區大觀路一段59號",
+                "locationName": "臺藝表演廳",
+                "onSales": "Y",
+                "price": "400,600,800,1000",
+                "latitude": "25.0059488",
+                "longitude": "121.4476306",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "詳細折扣內容，請點選本節目各場次",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "國立臺灣藝術大學"
+        ],
+        "subUnit": [
+            "花蓮縣文化局"
+        ],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteSo0ggRZKXOzQ",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/03/13",
+        "endDate": "2021/03/28",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fd3a96ed083a386a88353bc",
+        "title": "璀燦二十•築夢飛翔",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/02/07 14:30:00",
+                "location": "新北市板橋區莊敬路62號",
+                "locationName": "新北市藝文中心演藝廳",
+                "onSales": "Y",
+                "price": "450、350、250",
+                "latitude": "25.026127",
+                "longitude": "121.4722459",
+                "endTime": "2021/02/07 23:59:00"
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID\u003dN0WHH0TT",
+        "sourceWebPromote": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID\u003dN0WHH0TT",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "年代",
+        "startDate": "2021/02/07",
+        "endDate": "2021/02/07",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fe4ccddd083a300681e9a10",
+        "title": "雲堤十八。歡沁悅舞 雲堤舞蹈2021年度公演",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/30 19:30:00",
+                "location": "台中市西區民生路227號",
+                "locationName": "國立臺中教育大學寶成演藝廳",
+                "onSales": "Y",
+                "price": "800",
+                "latitude": "24.1442612",
+                "longitude": "120.6665411",
+                "endTime": "2021/01/30 23:59:00"
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID\u003dN0YN3KT8",
+        "sourceWebPromote": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID\u003dN0YN3KT8",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "年代",
+        "startDate": "2021/01/30",
+        "endDate": "2021/01/30",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fe61b40d083a300681e9a8a",
+        "title": "2021飛越舞團－迴鄉",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/30 19:30:00",
+                "location": "員林市大饒里員林大道二段99號",
+                "locationName": "彰化縣文化局員林演藝廳表演廳",
+                "onSales": "Y",
+                "price": "300",
+                "latitude": "23.9487743",
+                "longitude": "120.5761383",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "詳細折扣內容，請點選本節目各場次",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "飛越舞蹈團04-8852715"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteT67xbTDXp5jw",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/01/30",
+        "endDate": "2021/01/30",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fe638dad083a300681e9ad1",
+        "title": "【歌舞節目】排灣篇～古勒勒的生命史",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/23 14:30:00",
+                "location": "屏東縣瑪家鄉風景104號",
+                "locationName": "原住民族委員會原住民族文化發展中心",
+                "onSales": "Y",
+                "price": "全票+150;學生、軍警票+80;團體票+120",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/24 15:30:00"
+            }
+        ],
+        "showUnit": "(中華民國)娜麓灣樂舞劇團",
+        "discountInfo": "殘障國民、65歲以上老人、110公分以下免購票入園。 ",
+        "descriptionFilterHtml": "排灣族人的一生，每一階段宛若璀璨的琉璃珠，散發著光亮的色彩，時間彷若針線般將彩珠串成琉璃項鍊，這支以古勒勒誕生為起點的歌舞，適切的展現排灣族人每一階段的生命過程均圍繞在不同的歌舞中，其中描寫獵人的快準穩的老鷹之舞在氣吞山河的擊鼓樂中震撼全場；溫婉典雅，描寫少女上山採集百合花的舞作是最大特色，結?時的盪鞦韆與同心圓的四步舞都能綻放排灣族最特有的歌舞文化。\r\n\r\n",
+        "imageUrl": "",
+        "masterUnit": [
+            "原住民族委員會原住民族文化發展中心"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/23",
+        "endDate": "2021/01/24",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fe638dad083a300681e9ad2",
+        "title": "【歌舞節目】排灣篇～古勒勒的生命史",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/26 10:30:00",
+                "location": "屏東縣瑪家鄉風景104號",
+                "locationName": "原住民族委員會原住民族文化發展中心",
+                "onSales": "Y",
+                "price": "全票+150;學生、軍警票+80;團體票+120",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/31 11:30:00"
+            }
+        ],
+        "showUnit": "(中華民國)娜麓灣樂舞劇團",
+        "discountInfo": "殘障國民、65歲以上老人、110公分以下免購票入園。 ",
+        "descriptionFilterHtml": "排灣族人的一生，每一階段宛若璀璨的琉璃珠，散發著光亮的色彩，時間彷若針線般將彩珠串成琉璃項鍊，這支以古勒勒誕生為起點的歌舞，適切的展現排灣族人每一階段的生命過程均圍繞在不同的歌舞中，其中描寫獵人的快準穩的老鷹之舞在氣吞山河的擊鼓樂中震撼全場；溫婉典雅，描寫少女上山採集百合花的舞作是最大特色，結?時的盪鞦韆與同心圓的四步舞都能綻放排灣族最特有的歌舞文化。\r\n\r\n",
+        "imageUrl": "",
+        "masterUnit": [
+            "原住民族委員會原住民族文化發展中心"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/26",
+        "endDate": "2021/01/31",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fe638dbd083a300681e9ad3",
+        "title": "【歌舞節目】排灣篇～古勒勒的生命史",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/26 14:30:00",
+                "location": "屏東縣瑪家鄉風景104號",
+                "locationName": "原住民族委員會原住民族文化發展中心",
+                "onSales": "Y",
+                "price": "全票+150;學生、軍警票+80;團體票+120",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/29 15:30:00"
+            }
+        ],
+        "showUnit": "(中華民國)娜麓灣樂舞劇團",
+        "discountInfo": "殘障國民、65歲以上老人、110公分以下免購票入園。 ",
+        "descriptionFilterHtml": "排灣族人的一生，每一階段宛若璀璨的琉璃珠，散發著光亮的色彩，時間彷若針線般將彩珠串成琉璃項鍊，這支以古勒勒誕生為起點的歌舞，適切的展現排灣族人每一階段的生命過程均圍繞在不同的歌舞中，其中描寫獵人的快準穩的老鷹之舞在氣吞山河的擊鼓樂中震撼全場；溫婉典雅，描寫少女上山採集百合花的舞作是最大特色，結?時的盪鞦韆與同心圓的四步舞都能綻放排灣族最特有的歌舞文化。\r\n\r\n",
+        "imageUrl": "",
+        "masterUnit": [
+            "原住民族委員會原住民族文化發展中心"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/26",
+        "endDate": "2021/01/29",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fe638dbd083a300681e9ad5",
+        "title": "【歌舞節目】布農族～布農嘟拉",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/12 10:30:00",
+                "location": "屏東縣瑪家鄉風景104號",
+                "locationName": "原住民族委員會原住民族文化發展中心",
+                "onSales": "Y",
+                "price": "全票+150;學生、軍警票+80;團體票+120",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/17 15:30:00"
+            }
+        ],
+        "showUnit": "(中華民國)娜麓灣樂舞劇團",
+        "discountInfo": "殘障國民、65歲以上老人、110公分以下免購票入園。 ",
+        "descriptionFilterHtml": "沉靜如山的布農族，其渾然天成的合聲，憾動了人類對歌謠演唱的認知，在本齣劇碼雖然沒有絢麗的服裝與熱鬧活潑的歌舞，但是在不疾不徐的節奏下，布農族合諧完美的合聲是最大特色。本劇以合聲演唱、敲棒演奏、口琴、弓琴的演奏與歲時祭儀中的打陀螺引導至族中年度祭典－打耳祭；在祈禱小米豐收歌與男子的報戰功，舞作的空間感很豐富，是台灣原住民族樂舞中較動態之呈現，也是歌謠情境最完美的。",
+        "imageUrl": "",
+        "masterUnit": [
+            "原住民族委員會原住民族文化發展中心"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/12",
+        "endDate": "2021/01/17",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fe638dbd083a300681e9ad9",
+        "title": "【歌舞節目】鼓點起落 直達天聽",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/30 14:30:00",
+                "location": "屏東縣瑪家鄉風景104號",
+                "locationName": "原住民族委員會原住民族文化發展中心",
+                "onSales": "Y",
+                "price": "全票+150;學生、軍警票+80;團體票+120",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/31 15:30:00"
+            }
+        ],
+        "showUnit": "(中華民國)娜麓灣樂舞劇團",
+        "discountInfo": "殘障國民、65歲以上老人、110公分以下免購票入園。 ",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "原住民族委員會原住民族文化發展中心"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/30",
+        "endDate": "2021/01/31",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5fef575dd083a300681e9cff",
+        "title": "2021新舞季《璀璨的芭蕾》",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/28 14:30:00",
+                "location": "臺南市東區中華東路3段332號",
+                "locationName": "臺南文化中心演藝廳",
+                "onSales": "Y",
+                "price": "300,500",
+                "latitude": "22.9747368",
+                "longitude": "120.2215814",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "＊至2021/02/28 止早鳥每筆訂單打7折。\n\n＊團體購滿總數量10張以上每筆訂單打8折。\n\n",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "台南應用科技大學舞蹈系"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteTJlRIkvJP8og",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/03/28",
+        "endDate": "2021/03/28",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff52637d083a32618915e4c",
+        "title": "4111佛朗明哥舞入門班",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/11 09:30:00",
+                "location": "105  臺北市松山區八德路三段25號(臺北市藝文推廣處)",
+                "locationName": "B1舞蹈教室",
+                "onSales": "Y",
+                "price": "2500",
+                "latitude": "25.0483541",
+                "longitude": "121.5523447",
+                "endTime": "2021/06/17 09:30:00"
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "",
+        "descriptionFilterHtml": "4111佛朗明哥入門班課程規劃表   老師：許友俞\r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t教學目標\r\n\r\n\t\t\t及\r\n\r\n\t\t\t教學內容\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t針對無基礎者的入門課程/ 不須記憶舞碼 :\r\n\r\n\t\t\t完全沒基礎也可以參加，只要跟著老師從零開始訓練最基本的手位、轉腕、踩腳及轉圈動作，認識自己的身體並達到手腳協調與運動的目的, 並學習幾個簡單的佛朗明哥舞步組合。\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t項  次\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t上課日期\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t教學內容\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第1堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/11\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t課程簡介，暖身，佛朗明哥舞蹈特色介紹\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第2堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/18\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t基本手部動作，節奏訓練\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第3堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t3/25\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t初步的認識自己身體，簡單的基礎踩腳練習（golpe,planta,tacon）\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第4堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/1\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t方位練習，簡單的3拍舞步\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第5堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/8\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t轉圈練習，身體的重心轉移\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第6堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/15\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t基本步練習/換位並分組練習\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第7堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/22\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t舞步訓練，上半身姿勢調整\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第8堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t4/29\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t文化講座：認識佛朗明哥歷史\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第9堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/6\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t舞步訓練，踩腳訓練：Golpe-tacon-tacon\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第10堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/13\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t穩定度及平衡感訓練\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第11堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/20\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t影片欣賞：卡門Rafael Aguilar舞團演出\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第12堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t5/27\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t肢體美感與協調訓練，即興練習\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第13堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/3\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t成果展組合，分組練習\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第14堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/10\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t成果展組合演練，舞臺化妝課\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t第15堂課\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t6/17\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t期末成果發表\r\n\t\t\t\r\n\t\t\r\n\t\r\n\r\n\r\n \r\n\r\n本班每逢星期四    (上/)午　9　:　30　至　11：　30　上課\r\n\r\n \r\n\r\n報名期間：2021/02/01~2021/02/05",
+        "imageUrl": "",
+        "masterUnit": [
+            "臺北市藝文推廣處"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "https://event.culture.tw/TAPO/portal/Registration/C0103MAction?actId\u003d00163",
+        "sourceWebPromote": "https://event.culture.tw/TAPO",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "藝文活動報名平台",
+        "startDate": "2021/03/11",
+        "endDate": "2021/06/17",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff52704d083a32618915e51",
+        "title": "體相舞蹈劇場『Ｕ3創衍計畫』",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/02/05 19:30:00",
+                "location": "臺北市中正區八德路一段1號",
+                "locationName": "華山1914文創園區東3館 烏梅劇院",
+                "onSales": "Y",
+                "price": "800",
+                "latitude": "25.0433045",
+                "longitude": "121.5292957",
+                "endTime": ""
+            },
+            {
+                "time": "2021/02/06 14:30:00",
+                "location": "臺北市中正區八德路一段1號",
+                "locationName": "華山1914文創園區東3館 烏梅劇院",
+                "onSales": "Y",
+                "price": "800",
+                "latitude": "25.0433045",
+                "longitude": "121.5292957",
+                "endTime": ""
+            },
+            {
+                "time": "2021/02/06 19:30:00",
+                "location": "臺北市中正區八德路一段1號",
+                "locationName": "華山1914文創園區東3館 烏梅劇院",
+                "onSales": "Y",
+                "price": "800",
+                "latitude": "25.0433045",
+                "longitude": "121.5292957",
+                "endTime": ""
+            },
+            {
+                "time": "2021/02/07 14:30:00",
+                "location": "臺北市中正區八德路一段1號",
+                "locationName": "華山1914文創園區東3館 烏梅劇院",
+                "onSales": "Y",
+                "price": "800",
+                "latitude": "25.0433045",
+                "longitude": "121.5292957",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "＊團體票，全票購滿總數量20張以上每筆訂單打8折。\n\n",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "體相舞蹈劇場02-28917718"
+        ],
+        "subUnit": [
+            "華山1914文化創意產業園區"
+        ],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteQsAJmQp2E2i",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/02/05",
+        "endDate": "2021/02/07",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff5298bd083a32618915eca",
+        "title": "紫戀三月音樂會：青年高中熱舞團（文化廣場）",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/07 10:30:00",
+                "location": "南投縣魚池鄉金天巷45號",
+                "locationName": "九族文化村",
+                "onSales": "Y",
+                "price": "博幼票+420;特價+650",
+                "latitude": "23.8691608",
+                "longitude": "120.947866",
+                "endTime": "2021/03/07 11:30:00"
+            }
+        ],
+        "showUnit": "(中華民國)青年高中熱舞團",
+        "discountInfo": "期間：3月9日至4月5日",
+        "descriptionFilterHtml": "春天的戀琴，薰衣草的外遇，紫色的音符，花園的浪漫，三月的旋律，共同譜出唯美的樂章， 組合出一場場精彩的表演，紫戀薰衣草音樂會，週週歡樂優雅登場。",
+        "imageUrl": "",
+        "masterUnit": [
+            "九族文化村股份有限公司"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)交通部觀光局日月潭國家風景區管理處"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "https://www.nine.com.tw/page/activity/index.aspx?kind\u003d1#",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/03/07",
+        "endDate": "2021/03/07",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff5298bd083a32618915ecb",
+        "title": "紫戀三月音樂會：青年高中熱舞團（歐洲花園）",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/07 15:20:00",
+                "location": "南投縣魚池鄉金天巷45號",
+                "locationName": "九族文化村",
+                "onSales": "Y",
+                "price": "博幼票+420;特價+650",
+                "latitude": "23.8691608",
+                "longitude": "120.947866",
+                "endTime": "2021/03/07 16:20:00"
+            }
+        ],
+        "showUnit": "(中華民國)青年高中熱舞團",
+        "discountInfo": "期間：3月9日至4月5日",
+        "descriptionFilterHtml": "春天的戀琴，薰衣草的外遇，紫色的音符，花園的浪漫，三月的旋律，共同譜出唯美的樂章， 組合出一場場精彩的表演，紫戀薰衣草音樂會，週週歡樂優雅登場。",
+        "imageUrl": "",
+        "masterUnit": [
+            "九族文化村股份有限公司"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)交通部觀光局日月潭國家風景區管理處"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "https://www.nine.com.tw/page/activity/index.aspx?kind\u003d1#",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/03/07",
+        "endDate": "2021/03/07",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff75b99d083a33a6475d55c",
+        "title": "2021「客家圓樓」藝文表演：苗栗縣青盈舞蹈推廣協會-國標舞流行舞蹈",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/16 15:00:00",
+                "location": "苗栗縣後龍鎮7鄰新港三路295號",
+                "locationName": "苗栗客家圓樓",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.6051162",
+                "longitude": "120.8229661",
+                "endTime": "2021/01/16 16:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)苗栗縣青盈舞蹈推廣協會",
+        "discountInfo": "",
+        "descriptionFilterHtml": "為推展藝術文化，打造苗栗藝術文化之都，2021「客家圓樓」藝文表演，將邀請苗栗縣內優質團隊，表演內容有傳統客家歌唱樂曲、國樂、客家及流行歌舞等精采節目。邀請您來欣賞客家特色表演。",
+        "imageUrl": "",
+        "masterUnit": [
+            "苗栗縣政府文化觀光局"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "http://www.mlc.gov.tw/",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/16",
+        "endDate": "2021/01/16",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff75b9ad083a33a6475d55f",
+        "title": "2021「客家圓樓」藝文表演：苗栗縣運動舞蹈職業工會-流行歌舞、國標舞 ",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/23 15:00:00",
+                "location": "苗栗縣後龍鎮7鄰新港三路295號",
+                "locationName": "苗栗客家圓樓",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.6051162",
+                "longitude": "120.8229661",
+                "endTime": "2021/01/23 16:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)苗栗縣運動舞蹈職業工會",
+        "discountInfo": "",
+        "descriptionFilterHtml": "為推展藝術文化，打造苗栗藝術文化之都，2021「客家圓樓」藝文表演，將邀請苗栗縣內優質團隊，表演內容有傳統客家歌唱樂曲、國樂、客家及流行歌舞等精采節目。邀請您來欣賞客家特色表演。",
+        "imageUrl": "",
+        "masterUnit": [
+            "苗栗縣政府文化觀光局"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "http://www.mlc.gov.tw/",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/23",
+        "endDate": "2021/01/23",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff75b9bd083a33a6475d565",
+        "title": "2021「客家圓樓」藝文表演：苗栗高商熱舞社-流行熱舞(青少年)",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/31 15:00:00",
+                "location": "苗栗縣後龍鎮7鄰新港三路295號",
+                "locationName": "苗栗客家圓樓",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.6051162",
+                "longitude": "120.8229661",
+                "endTime": "2021/01/31 16:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)苗栗高商熱舞社",
+        "discountInfo": "",
+        "descriptionFilterHtml": "為推展藝術文化，打造苗栗藝術文化之都，2021「客家圓樓」藝文表演，將邀請苗栗縣內優質團隊，表演內容有傳統客家歌唱樂曲、國樂、客家及流行歌舞等精采節目。邀請您來欣賞客家特色表演。",
+        "imageUrl": "",
+        "masterUnit": [
+            "苗栗縣政府文化觀光局"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "http://www.mlc.gov.tw/",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/31",
+        "endDate": "2021/01/31",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff75b9bd083a33a6475d566",
+        "title": "2021「客家圓樓」藝文表演：苗栗縣原住民文化經濟產業協會-原住民舞、流行歌舞(青少年)",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/02/06 15:00:00",
+                "location": "苗栗縣後龍鎮7鄰新港三路295號",
+                "locationName": "苗栗客家圓樓",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.6051162",
+                "longitude": "120.8229661",
+                "endTime": "2021/02/06 16:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)苗栗縣原住民文化經濟產業協會",
+        "discountInfo": "",
+        "descriptionFilterHtml": "為推展藝術文化，打造苗栗藝術文化之都，2021「客家圓樓」藝文表演，將邀請苗栗縣內優質團隊，表演內容有傳統客家歌唱樂曲、國樂、客家及流行歌舞等精采節目。邀請您來欣賞客家特色表演。",
+        "imageUrl": "",
+        "masterUnit": [
+            "苗栗縣政府文化觀光局"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "http://www.mlc.gov.tw/",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/02/06",
+        "endDate": "2021/02/06",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff75b9bd083a33a6475d567",
+        "title": "2021「客家圓樓」藝文表演：邱可芬藝術舞蹈團-肚皮舞、流行舞",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/02/07 15:00:00",
+                "location": "苗栗縣後龍鎮7鄰新港三路295號",
+                "locationName": "苗栗客家圓樓",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.6051162",
+                "longitude": "120.8229661",
+                "endTime": "2021/02/07 16:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)邱可芬藝術舞蹈團",
+        "discountInfo": "",
+        "descriptionFilterHtml": "為推展藝術文化，打造苗栗藝術文化之都，2021「客家圓樓」藝文表演，將邀請苗栗縣內優質團隊，表演內容有傳統客家歌唱樂曲、國樂、客家及流行歌舞等精采節目。邀請您來欣賞客家特色表演。",
+        "imageUrl": "",
+        "masterUnit": [
+            "苗栗縣政府文化觀光局"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "http://www.mlc.gov.tw/",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/02/07",
+        "endDate": "2021/02/07",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff75b9dd083a33a6475d571",
+        "title": "2021「客家圓樓」藝文表演：苗栗縣公館運動舞蹈協會-流行歌舞、國標舞表演",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/02/28 15:00:00",
+                "location": "苗栗縣後龍鎮7鄰新港三路295號",
+                "locationName": "苗栗客家圓樓",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.6051162",
+                "longitude": "120.8229661",
+                "endTime": "2021/02/28 16:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)苗栗縣公館運動舞蹈協會",
+        "discountInfo": "",
+        "descriptionFilterHtml": "為推展藝術文化，打造苗栗藝術文化之都，2021「客家圓樓」藝文表演，將邀請苗栗縣內優質團隊，表演內容有傳統客家歌唱樂曲、國樂、客家及流行歌舞等精采節目。邀請您來欣賞客家特色表演。",
+        "imageUrl": "",
+        "masterUnit": [
+            "苗栗縣政府文化觀光局"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "http://www.mlc.gov.tw/",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/02/28",
+        "endDate": "2021/02/28",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff75b9ed083a33a6475d573",
+        "title": "2021「客家圓樓」藝文表演：苗栗縣山佳文化發展協會-流行歌舞、國標舞表演",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/07 15:00:00",
+                "location": "苗栗縣後龍鎮7鄰新港三路295號",
+                "locationName": "苗栗客家圓樓",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.6051162",
+                "longitude": "120.8229661",
+                "endTime": "2021/03/07 16:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)苗栗縣山佳文化發展協會",
+        "discountInfo": "",
+        "descriptionFilterHtml": "為推展藝術文化，打造苗栗藝術文化之都，2021「客家圓樓」藝文表演，將邀請苗栗縣內優質團隊，表演內容有傳統客家歌唱樂曲、國樂、客家及流行歌舞等精采節目。邀請您來欣賞客家特色表演。",
+        "imageUrl": "",
+        "masterUnit": [
+            "苗栗縣政府文化觀光局"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "http://www.mlc.gov.tw/",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/03/07",
+        "endDate": "2021/03/07",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff75b9fd083a33a6475d575",
+        "title": "2021「客家圓樓」藝文表演：苗栗農工熱舞社-青少年流行熱舞表演",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/03/14 15:00:00",
+                "location": "苗栗縣後龍鎮7鄰新港三路295號",
+                "locationName": "苗栗客家圓樓",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.6051162",
+                "longitude": "120.8229661",
+                "endTime": "2021/03/14 16:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)苗栗農工熱舞社",
+        "discountInfo": "",
+        "descriptionFilterHtml": "為推展藝術文化，打造苗栗藝術文化之都，2021「客家圓樓」藝文表演，將邀請苗栗縣內優質團隊，表演內容有傳統客家歌唱樂曲、國樂、客家及流行歌舞等精采節目。邀請您來欣賞客家特色表演。",
+        "imageUrl": "",
+        "masterUnit": [
+            "苗栗縣政府文化觀光局"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "http://www.mlc.gov.tw/",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/03/14",
+        "endDate": "2021/03/14",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff89077d083a3477c3c6e7d",
+        "title": "「幻羽之翼・小飛俠彼得潘」",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/02/28 14:30:00",
+                "location": "高雄市鳳山區三多一路1號",
+                "locationName": "衛武營國家藝術文化中心戲劇院",
+                "onSales": "Y",
+                "price": "400,600,800,1000,1200",
+                "latitude": "22.624172",
+                "longitude": "120.3422105",
+                "endTime": ""
+            }
+        ],
+        "showUnit": "",
+        "discountInfo": "＊衛武營生活卡每筆訂單打9折(不含400元。\n\n＊衛武營青年卡每筆訂單打9折(不含400元。\n\n＊衛武營無限卡每筆訂單打9折(不含400元)。\n\n＊至1/31 止早鳥800元以上享75折優惠。\n\n＊團體購滿總數量10張以上每筆訂單打9折。\n\n＊團體購滿總數量20張以上每筆訂單打8折。\n\n",
+        "descriptionFilterHtml": "",
+        "imageUrl": "",
+        "masterUnit": [
+            "梵羽小舞劇坊"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "http://www.artsticket.com.tw/CKSCC2005/Product/Product00/ProductsDetailsPage.aspx?ProductID\u003drotyiUrPteSbr2o68rojmQ",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "兩廳院售票網",
+        "startDate": "2021/02/28",
+        "endDate": "2021/02/28",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff8ad09d083a3477c3c6ec6",
+        "title": "2021開動舞蹈空間舞團成果展演【3.2.1.開動】 ",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/31 14:30:00",
+                "location": "臺中市西區英才路600號",
+                "locationName": "臺中市大墩文化中心",
+                "onSales": "N",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/31 16:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)開動舞蹈空間舞團",
+        "discountInfo": "",
+        "descriptionFilterHtml": "2021開動舞蹈空間舞團成果展演【3.2.1.開動】\r\n動●跡\r\n露水像個精靈穿梭在山野間\r\n滋養著、舞蹈著、生命就充滿流動的痕跡",
+        "imageUrl": "",
+        "masterUnit": [],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)臺中市政府文化局"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/31",
+        "endDate": "2021/01/31",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff9fe96d083a3477c3c6f17",
+        "title": "臺南市109學年度國民中小學舞蹈藝術才能班聯合成果發表會—『123肆舞』",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/23 19:00:00",
+                "location": "臺南市東區中華東路三段332號",
+                "locationName": "臺南文化中心",
+                "onSales": "N",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/23 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)永康區永仁高級中學、永康區復興國小、中西區進學國小、中西區中山國中",
+        "discountInfo": "",
+        "descriptionFilterHtml": "臺南市109學年度國民中小學舞蹈藝術才能班聯合發表會活動，主題「123肆舞」，於110年1月23日晚上7時假臺南文化中心演藝廳閃亮登場，演出單位由台南市四所藝才班學生共同擔任，主要目的增進學生舞台展演經驗、展現技能與專業素養之舞蹈藝術教育成果發表。",
+        "imageUrl": "",
+        "masterUnit": [
+            "臺南市政府教育局"
+        ],
+        "subUnit": [
+            "臺南市政府文化局"
+        ],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/23",
+        "endDate": "2021/01/23",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff9fe97d083a3477c3c6f1a",
+        "title": "竹山牛舞花竹藝燈會主燈區舞台表演：多元舞蹈協會排舞班、包府開心單人舞蹈班",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/13 19:00:00",
+                "location": "南投縣竹山鎮",
+                "locationName": "竹山鎮（南投縣）\u003d",
+                "onSales": "N",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/13 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)南投縣竹山鎮公所",
+        "discountInfo": "",
+        "descriptionFilterHtml": "節目內容\r\n19:00-20:00／多元舞蹈協會排舞班\r\n20:00-21:00／包府開心單人舞蹈班",
+        "imageUrl": "",
+        "masterUnit": [
+            "南投縣竹山鎮公所",
+            "南投縣竹山鎮民代表會"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)行政院中部聯合服務中心",
+            "(指導)南投縣政府"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "https://www.facebook.com/JhuShan",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/13",
+        "endDate": "2021/01/13",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff9fe97d083a3477c3c6f1c",
+        "title": "竹山牛舞花竹藝燈會主燈區舞台表演：延和社區單人舞蹈班 、莊麗娟舞蹈團隊",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/19 19:00:00",
+                "location": "南投縣竹山鎮",
+                "locationName": "竹山鎮（南投縣）\u003d",
+                "onSales": "N",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/19 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)南投縣竹山鎮公所",
+        "discountInfo": "",
+        "descriptionFilterHtml": "節目內容\r\n19:00-20:00／延和社區單人舞蹈班 \r\n20:00-21:00／莊麗娟舞蹈團隊",
+        "imageUrl": "",
+        "masterUnit": [
+            "南投縣竹山鎮公所",
+            "南投縣竹山鎮民代表會"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)行政院中部聯合服務中心",
+            "(指導)南投縣政府"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "https://www.facebook.com/JhuShan",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/19",
+        "endDate": "2021/01/19",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff9fe97d083a3477c3c6f1d",
+        "title": "竹山牛舞花竹藝燈會主燈區舞台表演：延祥單人舞蹈班、延平社區舞蹈班",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/20 19:00:00",
+                "location": "南投縣竹山鎮",
+                "locationName": "竹山鎮（南投縣）\u003d",
+                "onSales": "N",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/20 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)南投縣竹山鎮公所",
+        "discountInfo": "",
+        "descriptionFilterHtml": "節目內容\r\n19:00-20:00／延祥單人舞蹈班\r\n20:00-21:00／延平社區舞蹈班",
+        "imageUrl": "",
+        "masterUnit": [
+            "南投縣竹山鎮公所",
+            "南投縣竹山鎮民代表會"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)行政院中部聯合服務中心",
+            "(指導)南投縣政府"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "https://www.facebook.com/JhuShan",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/20",
+        "endDate": "2021/01/20",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff9fe97d083a3477c3c6f1e",
+        "title": "竹山牛舞花竹藝燈會主燈區舞台表演：露西家族舞團、延和社區雙人舞班 ",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/26 19:00:00",
+                "location": "南投縣竹山鎮",
+                "locationName": "竹山鎮（南投縣）\u003d",
+                "onSales": "N",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/26 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)南投縣竹山鎮公所",
+        "discountInfo": "",
+        "descriptionFilterHtml": "節目內容\r\n19:00-20:00／露西家族舞團\r\n20:00-21:00／延和社區雙人舞班 ",
+        "imageUrl": "",
+        "masterUnit": [
+            "南投縣竹山鎮公所",
+            "南投縣竹山鎮民代表會"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)行政院中部聯合服務中心",
+            "(指導)南投縣政府"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "https://www.facebook.com/JhuShan",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/26",
+        "endDate": "2021/01/26",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff9fe97d083a3477c3c6f1f",
+        "title": "竹山牛舞花竹藝燈會主燈區舞台表演：竹山社大韻律舞蹈班、包府開心單人舞蹈班",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/27 19:00:00",
+                "location": "南投縣竹山鎮",
+                "locationName": "竹山鎮（南投縣）\u003d",
+                "onSales": "N",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/27 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)南投縣竹山鎮公所",
+        "discountInfo": "",
+        "descriptionFilterHtml": "節目內容\r\n19:00-20:00／竹山社大韻律舞蹈班\r\n20:00-21:00／包府開心單人舞蹈班",
+        "imageUrl": "",
+        "masterUnit": [
+            "南投縣竹山鎮公所",
+            "南投縣竹山鎮民代表會"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)行政院中部聯合服務中心",
+            "(指導)南投縣政府"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "https://www.facebook.com/JhuShan",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/27",
+        "endDate": "2021/01/27",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff9fe98d083a3477c3c6f22",
+        "title": "竹山牛舞花竹藝燈會主燈區舞台表演：多元排舞陽光班、美姿舞蹈班",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/02/24 19:00:00",
+                "location": "南投縣竹山鎮",
+                "locationName": "竹山鎮（南投縣）\u003d",
+                "onSales": "N",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/02/24 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)南投縣竹山鎮公所",
+        "discountInfo": "",
+        "descriptionFilterHtml": "節目內容\r\n19:00-20:00／多元排舞陽光班\r\n20:00-21:00／美姿舞蹈班",
+        "imageUrl": "",
+        "masterUnit": [
+            "南投縣竹山鎮公所",
+            "南投縣竹山鎮民代表會"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)行政院中部聯合服務中心",
+            "(指導)南投縣政府"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "https://www.facebook.com/JhuShan",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/02/24",
+        "endDate": "2021/02/24",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff9fe9cd083a3477c3c6f3b",
+        "title": "竹山牛舞花竹藝燈會主燈區舞台表演：莊麗娟舞蹈團隊",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/02/03 19:00:00",
+                "location": "南投縣竹山鎮",
+                "locationName": "竹山鎮（南投縣）\u003d",
+                "onSales": "N",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/02/03 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)南投縣竹山鎮公所",
+        "discountInfo": "",
+        "descriptionFilterHtml": "--",
+        "imageUrl": "",
+        "masterUnit": [
+            "南投縣竹山鎮公所",
+            "南投縣竹山鎮民代表會"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)行政院中部聯合服務中心",
+            "(指導)南投縣政府"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "https://www.facebook.com/JhuShan",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/02/03",
+        "endDate": "2021/02/03",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff9fe9cd083a3477c3c6f3c",
+        "title": "竹山牛舞花竹藝燈會主燈區舞台表演：水噹噹舞蹈團",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/02/09 19:00:00",
+                "location": "南投縣竹山鎮",
+                "locationName": "竹山鎮（南投縣）\u003d",
+                "onSales": "N",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/02/09 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)南投縣竹山鎮公所",
+        "discountInfo": "",
+        "descriptionFilterHtml": "--",
+        "imageUrl": "",
+        "masterUnit": [
+            "南投縣竹山鎮公所",
+            "南投縣竹山鎮民代表會"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)行政院中部聯合服務中心",
+            "(指導)南投縣政府"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "https://www.facebook.com/JhuShan",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/02/09",
+        "endDate": "2021/02/09",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ff9fe9dd083a3477c3c6f3d",
+        "title": "竹山牛舞花竹藝燈會主燈區舞台表演：莊麗娟舞蹈團隊",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/02/23 19:00:00",
+                "location": "南投縣竹山鎮",
+                "locationName": "竹山鎮（南投縣）\u003d",
+                "onSales": "N",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/02/23 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)南投縣竹山鎮公所",
+        "discountInfo": "",
+        "descriptionFilterHtml": "--",
+        "imageUrl": "",
+        "masterUnit": [
+            "南投縣竹山鎮公所",
+            "南投縣竹山鎮民代表會"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)行政院中部聯合服務中心",
+            "(指導)南投縣政府"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "https://www.facebook.com/JhuShan",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/02/23",
+        "endDate": "2021/02/23",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ffb4fe9d083a3477c3c6f61",
+        "title": "花式籃球H.Double C",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/17 14:00:00",
+                "location": "新竹市東區中央路229號",
+                "locationName": "Big City遠東巨城購物中心",
+                "onSales": "N",
+                "price": "",
+                "latitude": "24.808897",
+                "longitude": "120.9744969",
+                "endTime": "2021/01/17 15:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)H.Double C",
+        "discountInfo": "",
+        "descriptionFilterHtml": "花式籃球結合籃球、街舞的表演，注重的是音樂節奏和籃球動作的結合，將帶來一個超乎你想像的精彩表演！",
+        "imageUrl": "",
+        "masterUnit": [
+            "Big City遠東巨城購物中心"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/17",
+        "endDate": "2021/01/17",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ffd4317d083a330884e8ff7",
+        "title": "戲夢華筵陳姿玲個人製作",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/16 19:30:00",
+                "location": "彰化縣員林市員林大道2段99號",
+                "locationName": "彰化縣員林演藝廳",
+                "onSales": "Y",
+                "price": "全票+200;全票+300;全票+500;全票+800",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/16 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)陳姿玲、員林漢心舞團",
+        "discountInfo": "售票方式：兩廳院售票\r\n票價：200、300、500、800元",
+        "descriptionFilterHtml": "【節目介紹】 \r\n戲夢華筵，陳姿玲個人製作，相遇於你我之間的緣!透過中國舞元素為理念，從不同的視角觀看舞作中塑造出的人物形象與肢體傳達，並著重詮釋人物性格中的細膩情感、鮮明個性，展現每個角色的獨特性，製作特邀寶爾基、冷靜、黃瑋婷、黃克越、辜婉玉5位優秀的編舞家，量身創作4首舞作，企圖從作品中打破結構，刻劃出製作人的舞蹈生命里程。 ",
+        "imageUrl": "",
+        "masterUnit": [
+            "國立臺灣體育運動大學"
+        ],
+        "subUnit": [
+            "彰化縣文化局"
+        ],
+        "supportUnit": [],
+        "otherUnit": [
+            "(指導)彰化縣政府"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "http://www.bocach.gov.tw/ch/01activity/01view.asp?sn\u003d10666",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/16",
+        "endDate": "2021/01/16",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ffd686ad083a330884e9012",
+        "title": "假日廣場-《舞纏花綻》快樂舞集",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/30 19:00:00",
+                "location": "臺南市東區中華東路三段332號",
+                "locationName": "臺南文化中心",
+                "onSales": "N",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/30 21:00:00"
+            }
+        ],
+        "showUnit": "(中華民國)快樂舞集",
+        "discountInfo": "",
+        "descriptionFilterHtml": "纏花媒介與舞蹈藝術誇界結合演出-靜態與動態的創新合作 \r\n",
+        "imageUrl": "",
+        "masterUnit": [
+            "臺南市快樂舞集"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [
+            "(合辦)臺南市政府文化局"
+        ],
+        "webSales": "",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/30",
+        "endDate": "2021/01/30",
+        "hitRate": 0
+    },
+    {
+        "version": "1.4",
+        "UID": "5ffd692fd083a330884e901b",
+        "title": "創作芭蕾《2021點子鞋Dance Shoe》",
+        "category": "3",
+        "showInfo": [
+            {
+                "time": "2021/01/30 14:30:00",
+                "location": "臺南市東區中華東路三段332號",
+                "locationName": "臺南文化中心",
+                "onSales": "Y",
+                "price": "",
+                "latitude": null,
+                "longitude": null,
+                "endTime": "2021/01/30 21:30:00"
+            }
+        ],
+        "showUnit": "(中華民國)高雄城市芭蕾舞團",
+        "discountInfo": "",
+        "descriptionFilterHtml": "《2021點子鞋》即將邁入第十八年，今年將由柯姿君、鍾長宏、許生翰、許佳蓉、梁秩傑五位編舞者，以芭蕾為主要創作元素，將芭蕾結合不同領域的創作概念產生更多富有藝術性的作品，開創另一新視野的芭蕾呈現。\r\n\r\n",
+        "imageUrl": "",
+        "masterUnit": [
+            "高雄城市芭蕾舞團"
+        ],
+        "subUnit": [],
+        "supportUnit": [],
+        "otherUnit": [],
+        "webSales": "",
+        "sourceWebPromote": "",
+        "comment": "",
+        "editModifyDate": "",
+        "sourceWebName": "全國藝文活動資訊系統",
+        "startDate": "2021/01/30",
+        "endDate": "2021/01/30",
+        "hitRate": 0
+    }
+]

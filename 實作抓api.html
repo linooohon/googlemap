@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        window.onload = (function () {
+            getData()
+        });
+
+        let jsonData;
+        let myNewArray = [];
+        function getData() {
+        fetch("https://bsopendata.azurewebsites.net/api/LeisureTravel/Attractions", {})
+            .then((response) => {
+                console.log(response);
+                return response.json();
+            })
+            .then((jsonData) => {
+                // console.log(jsonData);
+                transForm(jsonData);
+            })
+            .catch((err) => {
+                console.log("錯誤:", err);
+            });
+        }
+
+
+        function transForm(jsonObj) {
+            let target = jsonObj.XML_Head.Infos.Info;
+            target.forEach((item) => {
+                // let id = item.Id;
+                // let name = item.Name;
+                // let description = item.Description;
+                // let tel = item.Tel;
+                // let address = item.Add;
+                // let region = item.Region;
+                // let town = item.Town;
+                // let px = item.Px;
+                // let py = item.Py;
+                myNewObj = {
+                    id: item.Id,
+                    name: item.Name,
+                    description: item.Description,
+                    tel: item.Tel,
+                    address: item.Add,
+                    region: item.Region,
+                    town: item.Town,
+                    px: item.Px,
+                    py: item.Py
+                }
+                myNewArray.push(myNewObj)
+            });
+            console.log(myNewArray);
+        }
+    </script>
+</body>
+</html>

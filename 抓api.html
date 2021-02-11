@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let dataObj = [];
+        fetch("https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-4BC82223-12B9-4A30-A20A-33D26C10E598&format=JSON&sort=time", {})
+            .then((response) => {
+                console.log(response);
+                return response.json();
+            })
+            .then((jsonData) => {
+                console.log(jsonData);
+                dataObj = jsonData;
+            })
+            .catch((err) => {
+                console.log("錯誤:", err);
+            });
+
+
+            function transFrom() {
+                dataObj.forEach((item) => {
+                    success = item.success
+                });
+            }
+
+    </script>
+</body>
+</html>
