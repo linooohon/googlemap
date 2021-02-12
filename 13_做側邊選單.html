@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-    <title>Document</title>
+    <title>台灣景點查詢 Taiwan Attractions</title>
+    <link rel="shortcut icon" href="/01.svg">
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd2fFmHB7xWd3E_Y3DWuVgomIqiclUkNE&callback=initMap&callback=initMap&libraries=&v=weekly"
         defer></script>
@@ -172,7 +173,7 @@
         }
 
         .box:hover{
-            background-color: rgb(139, 136, 136);
+            background-color: rgb(66, 65, 65);
             /* color: #000; */
         }
     </style>
@@ -277,30 +278,6 @@
             <button><i class="fas fa-search"></i></button>
         </form>
         <div class="attractions">
-            <div class="box">
-                <div>
-                    <div class="content">福德水車</div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div>
-                    <div class="content">福德水車</div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div>
-                    <div class="content">福德水車</div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div>
-                    <div class="content">福德水車</div>
-                </div>
-            </div>
-
             <div class="box">
                 <div>
                     <div class="content">福德水車</div>
@@ -433,10 +410,9 @@
 
                     everyAttraction = element;
 
-                    // let div = document.createElement("div");
                     let contentDiv = document.createElement("div");
-                    contentDiv.innerHTML = `${element.name}<br>${element.tel}<br>${element.address}`;
-                    // div.appendChild(contentDiv);
+                    // contentDiv.innerHTML = `${element.name}<br>${element.tel}<br>${element.address}`;
+                    contentDiv.innerHTML = `${element.name}`;
                     contentDiv.classList.add("box");
                     contentDiv.setAttribute("data-py", `${element.py}`);
                     contentDiv.setAttribute("data-px", `${element.px}`);
@@ -517,10 +493,9 @@
 
                     everyAttraction = element;
 
-                    // let div = document.createElement("div");
                     let contentDiv = document.createElement("div");
-                    contentDiv.innerHTML = `${element.name}<br>${element.tel}<br>${element.address}`;
-                    // div.appendChild(contentDiv);
+                    // contentDiv.innerHTML = `${element.name}<br>${element.tel}<br>${element.address}`;
+                    contentDiv.innerHTML = `${element.name}`;
                     contentDiv.classList.add("box");
                     contentDiv.setAttribute("data-py", `${element.py}`);
                     contentDiv.setAttribute("data-px", `${element.px}`);
