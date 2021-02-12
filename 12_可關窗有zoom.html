@@ -41,11 +41,9 @@
         }
 
         .dropdown-menu-town {
-            /* background-color: rgb(169, 189, 189); */
             width: 100%;
             display: flex;
             flex-wrap: wrap;
-            /* border: 1px solid rgb(116, 114, 114); */
         }
 
         .dropdown-menu-townitem {
@@ -54,7 +52,10 @@
             color: #fff;
             padding: 0 1vw;
             cursor: pointer;
-            /* background-color: aqua; */
+        }
+
+        .nav-link{
+            outline: none;
         }
 
         @media screen and (min-width: 992px) {
@@ -70,7 +71,7 @@
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <!-- <div class="container-fluid"> -->
-                <a class="navbar-brand" href="#">台灣景點圖 Taiwan Attractions Map</a>
+                <a class="navbar-brand" href="#">台灣景點圖 Taiwan Attractions</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -142,7 +143,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="container-fluid">
+                <div class="container-fluid w-100">
                     <div class="row town">
                         <div class="dropdown-menu-town">
                             <!--注意這裡目前是 div 可以考慮，改成ul?-->
@@ -291,7 +292,7 @@
                 li.setAttribute("data-region", e.target.dataset.control);
                 li.setAttribute("class", "region-name");
                 li.appendChild(a);
-                townDiv.style.border = "1px solid rgb(116, 114, 114)";
+                // townDiv.style.border = "1px solid rgb(116, 114, 114)";
                 townDiv.appendChild(li);
             });
         }
