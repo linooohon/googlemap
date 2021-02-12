@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>Document</title>
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd2fFmHB7xWd3E_Y3DWuVgomIqiclUkNE&callback=initMap&callback=initMap&libraries=&v=weekly"
@@ -16,6 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
     </script>
+    <script src="https://kit.fontawesome.com/a81499c16d.js" crossorigin="anonymous"></script>
     <style type="text/css">
         * {
             margin: 0;
@@ -36,6 +37,11 @@
             height: 100%;
         }
 
+        .navbar {
+            position: fixed;
+            z-index: 991;
+        }
+
         .dropdown-toggle::after {
             content: none;
         }
@@ -54,7 +60,7 @@
             cursor: pointer;
         }
 
-        .nav-link{
+        .nav-link {
             outline: none;
         }
 
@@ -64,6 +70,111 @@
             }
         }
 
+
+        /* 側邊選單 */
+
+        .side-menu {
+            width: 20rem;
+            height: 60%;
+            background-color: hsla(205, 66%, 29%, .8);
+            opacity: 0.8;
+            display: flex;
+            top: 12rem;
+            flex-direction: column;
+            padding: 3rem 0 0 0;
+            box-sizing: border-box;
+            box-shadow: 5px 0px 10px hsla(240, 40%, 15%, .6);
+            position: fixed;
+            transform: translateX(-100%);
+            transition: .3s;
+            z-index: 990;
+        }
+
+        .side-menu form {
+            display: flex;
+            margin: 0 10px 20px;
+            border-radius: 100px;
+            border: 1px solid rgb(255, 255, 255, .4);
+        }
+
+        .side-menu form input,
+        .side-menu form button {
+            border: none;
+            padding: 5px 10px;
+            background-color: transparent;
+            color: rgb(255, 255, 255);
+        }
+
+        .side-menu form input {
+            width: 230px;
+        }
+
+        .side-menu form input::placeholder {
+            color: rgb(235, 223, 184);
+            font-weight: 400;
+        }
+
+        .side-menu form button {
+            width: 50px;
+        }
+
+        .side-menu form input:focus,
+        .side-menu form button:focus {
+            outline: none;
+        }
+
+        .side-menu label {
+            position: absolute;
+            width: 40px;
+            height: 60px;
+            background-color: #000;
+            opacity: 0.7;
+            color: #fff;
+            right: -40px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            line-height: 60px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 0 10px 10px 0;
+            cursor: pointer;
+        }
+
+        #side-menu-switch {
+            position: absolute;
+            opacity: 0;
+            z-index: -1;
+        }
+
+        #side-menu-switch:checked+.side-menu {
+            transform: translateX(0);
+        }
+
+        #side-menu-switch:checked+.side-menu label .fas {
+            /* 這兩個寫法都可以旋轉 180度 */
+            /* transform: scaleX(-1); */
+            transform: rotate(180deg);
+
+        }
+
+        .attractions {
+            overflow: auto;
+            color: #fff;
+        }
+
+        .box {
+            border-bottom: 1px solid rgb(172, 170, 170);
+            /* border-radius: 5px; */
+            padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+            margin: 0.5rem;
+            cursor: pointer;
+        }
+
+        .box:hover{
+            background-color: rgb(139, 136, 136);
+            /* color: #000; */
+        }
     </style>
 </head>
 
@@ -157,26 +268,99 @@
         </div>
     </div>
 
+    <!-- <div class="container"> -->
+    <input type="checkbox" id="side-menu-switch">
+
+    <div class="side-menu">
+        <form action="">
+            <input type="search" placeholder="請輸入關鍵字">
+            <button><i class="fas fa-search"></i></button>
+        </form>
+        <div class="attractions">
+            <div class="box">
+                <div>
+                    <div class="content">福德水車</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div>
+                    <div class="content">福德水車</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div>
+                    <div class="content">福德水車</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div>
+                    <div class="content">福德水車</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div>
+                    <div class="content">福德水車</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div>
+                    <div class="content">福德水車</div>
+                </div>
+            </div>
+        </div>
+        <label for="side-menu-switch">
+            <i class="fas fa-angle-right"></i>
+        </label>
+    </div>
+    <!-- </div> -->
+
+
+
     <div id="map"></div>
 
     <script>
+        let jsonData;
+        let myNewArray = [];
+
+        //顯示出對應縣市的marker
+        let regionMarkers = [];
+
+        //顯示對應鄉鎮區marker
+        let townMarkers = [];
+
+        let attractionsDiv = document.querySelector(".attractions");
+        var infoWindow;
+        var map;
+        var everyAttraction;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 8,
+                center: new google.maps.LatLng(23.8398335, 120.4220497),
+            });
+
+            infoWindow = new google.maps.InfoWindow();
+
+            map.addListener('click', function () {
+                if (infoWindow) infoWindow.close();
+            });
+        }
+
+
         window.onload = (function () {
             getData();
         });
 
         document.onselectstart = new Function("return false");
 
-        document.querySelector(".navbar-brand").addEventListener("click", function() {
-            window.location.reload(); 
+        document.querySelector(".navbar-brand").addEventListener("click", function () {
+            window.location.reload();
         });
-
-        let jsonData;
-        let myNewArray = [];
-        // let zIndex = 0;
-        var infoWindow;
-        var map;
-        // var lastinfowindow;
-        // var myMarker;
 
         // const cors = 'https://cors-anywhere.herokuapp.com/'; // use cors-anywhere to fetch api data
         // const url = "https://cors-anywhere.herokuapp.com/https://bsopendata.azurewebsites.net/api/LeisureTravel/Attractions"; // origin api url
@@ -219,28 +403,13 @@
             });
         }
 
-        function initMap() {
-            map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 8,
-                center: new google.maps.LatLng(23.8398335, 120.4220497),
-            });
-
-            infoWindow = new google.maps.InfoWindow();
-
-            map.addListener('click', function () {
-                if (infoWindow) infoWindow.close();
-            });
-        }
-
         //--------------------------------------------
 
         //點擊北中南東離島綁事件跑showRegionMarker - 綁父層 - 取得子層縣市處理
         document.querySelector(".navbar-nav").addEventListener("click", showRegionMarker);
 
-        //顯示出對應縣市的marker
-        let regionMarkers = [];
-
         function showRegionMarker(e) {
+            attractionsDiv.innerHTML = "";
             e.preventDefault(); //阻止a連結預設的跳轉網頁練習用
             regionMarkers.forEach((marker) => marker.setMap(null)); //消除前次縣市marker
             townMarkers.forEach((marker) => marker.setMap(null)); //消除前次鄉鎮區marker
@@ -252,7 +421,8 @@
                             lat: element.py,
                             lng: element.px
                         },
-                        content: `<div class="content">${element.name}</div>`
+                        content: `<div class="content">${element.name}<hr>${element.tel}<br>${element.address}</div>` + 
+                            `<div class="content">${element.description}</div>`
                     });
 
                     map.setCenter({
@@ -260,6 +430,17 @@
                         lng: element.px
                     });
                     map.setZoom(11);
+
+                    everyAttraction = element;
+
+                    // let div = document.createElement("div");
+                    let contentDiv = document.createElement("div");
+                    contentDiv.innerHTML = `${element.name}<br>${element.tel}<br>${element.address}`;
+                    // div.appendChild(contentDiv);
+                    contentDiv.classList.add("box");
+                    contentDiv.setAttribute("data-py", `${element.py}`);
+                    contentDiv.setAttribute("data-px", `${element.px}`);
+                    attractionsDiv.appendChild(contentDiv);
                 }
             });
         }
@@ -304,17 +485,13 @@
             });
         }
 
-
         //--------------------------------
-
 
         //點擊縣市ul 綁父層跑showTownMarker - 取得子li處理
         document.querySelector(".dropdown-menu-town").addEventListener("click", showTownMarker);
 
-        //顯示對應鄉鎮區marker
-        let townMarkers = [];
-
         function showTownMarker(e) {
+            attractionsDiv.innerHTML = "";
             let li = document.querySelector(".region-name");
             e.preventDefault(); //阻止a連結預設的跳轉網頁練習用
             regionMarkers.forEach((marker) => marker.setMap(null)); //消除前次縣市 marker
@@ -328,7 +505,8 @@
                             lat: element.py,
                             lng: element.px
                         },
-                        content: `<div class="content">${element.name}</div>`
+                        content: `<div class="content">${element.name}<hr>${element.tel}<br>${element.address}</div>` + 
+                            `<div class="content">${element.description}</div>`
                     });
 
                     map.setCenter({
@@ -336,15 +514,22 @@
                         lng: element.px
                     });
                     map.setZoom(12);
+
+                    everyAttraction = element;
+
+                    // let div = document.createElement("div");
+                    let contentDiv = document.createElement("div");
+                    contentDiv.innerHTML = `${element.name}<br>${element.tel}<br>${element.address}`;
+                    // div.appendChild(contentDiv);
+                    contentDiv.classList.add("box");
+                    contentDiv.setAttribute("data-py", `${element.py}`);
+                    contentDiv.setAttribute("data-px", `${element.px}`);
+                    attractionsDiv.appendChild(contentDiv);
                 }
             });
         }
 
-
         //--------------------------------------------------------
-
-
-
 
         function addMarker(props) {
             var marker = new google.maps.Marker({
@@ -362,6 +547,26 @@
                 });
             }
         }
+
+        function showAttractionSummary() {
+            let div = document.createElement("div");
+            let contentDiv = document.createElement("div");
+            contentDiv.innerHTML = `<div class="content">${element.name}</div>`;
+            div.appendChild(contentDiv);
+            let attractionsDiv = document.querySelector(".attractions");
+            attractionsDiv.appendChild(div);
+        }
+
+        attractionsDiv.addEventListener("click", (e) => {
+            console.log(e.target);
+
+            map.setCenter({
+                lat: parseFloat(e.target.dataset.py),
+                lng: parseFloat(e.target.dataset.px)
+            });
+            map.setZoom(20);
+            console.log(`${e.target.dataset.py}`,`${e.target.dataset.px}`);
+        });
     </script>
 </body>
 
