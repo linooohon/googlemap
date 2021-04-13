@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://127.0.0.1:5509/03_watch%E5%B1%AC%E6%80%A7.html -->
+<html lang="en" class="js-focus-visible" data-js-focus-visible=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<input type="hidden" id="_w_elixir"><script type="text/javascript" src="chrome-extension://dbjbempljhcmhlfpfacalomonjpalpko/scripts/inspector.js"></script><style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+}</style></head>
+
+<body data-new-gr-c-s-check-loaded="14.997.0" data-gr-ext-installed="">
+
+
+    <div id="app"><input type="text" placeholder="inputAlert"> <input type="text" placeholder="inputA"> <input type="text" placeholder="inputB"> <input type="text" placeholder="inputData"> <p>inputA + inputB = </p> <ul><li><span>Name: </span><span>紅酒</span> <br> <span>Price: </span><span>10</span> <br> <span>Amount:</span><input type="number" class=""></li><li><span>Name: </span><span>清酒</span> <br> <span>Price: </span><span>20</span> <br> <span>Amount:</span><input type="number" class="focus-visible" data-focus-visible-added=""></li></ul> <p>小計: 30 </p></div>
+
+
+    <script src="./Document_files/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: "#app",
+            data: {
+                inputAlert: "",
+                inputData: "",
+                inputA: "",
+                inputB: "",
+                ans: "",
+                arrayData: [
+                    {Name: "紅酒", Price: 10},
+                    {Name: "清酒", Price: 20}
+                ]
+            },
+            methods: {
+                // SayHi: function() {
+                //     window.alert("Hi");
+                // },
+                // Add: function(){
+                //     this.ans = parseInt(this.inputA) + parseInt(this.inputB);
+                // },
+            },
+            watch: {
+                inputAlert: function () {
+                    window.alert("有人動它");
+                },
+                inputData: function () {
+                    if (!/^[0-9]*$/.test(this.inputData)) {
+                        this.errorMsg = "不是數字";
+                    } else {
+                        this.errorMsg = "";
+                    }
+                },
+                inputA: function () {
+                    this.ans = parseInt(this.inputA) + parseInt(this.inputB);
+                },
+                inputB: function () {
+                    this.ans = parseInt(this.inputA) + parseInt(this.inputB);
+                },
+                arrayData: function () {
+                    this.total = this.arrayData.reduce(x => x.price);
+                }
+            },
+            computed: {
+                plus: function () {
+                    var result = 0;
+                    this.arrayData.forEach(x => {
+                        result += x.Price;
+                    });
+                    return result
+                }
+            }
+        });
+    </script>
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><loom-container id="lo-engage-ext-container"><div></div><loom-shadow classname="resolved"></loom-shadow></loom-container></html>
