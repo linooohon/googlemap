@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>台灣景點查詢 Search Taiwan Attractions</title>
+    <link rel="shortcut icon" href="/01.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpkbidMGfaylmry3DNKNZFwaAbQAcQ-p8&callback=initMap&callback=initMap&libraries=&v=weekly"
+        defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a81499c16d.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+            /* display: flex; */
+            /* position: absolute; */
+            /* right: 0; */
+        }
+
+        html,
+        body {
+            height: 100%;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+        .navbar {
+            position: fixed;
+            z-index: 991;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .navbar .navbar-toggler {
+            font-size: 0.8rem;
+        }
+
+        .dropdown-toggle::after {
+            content: none;
+        }
+
+        .dropdown-menu-town {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .dropdown-menu-townitem {
+            width: 100%;
+            text-decoration: none;
+            color: #fff;
+            padding: 0 1vw;
+            cursor: pointer;
+        }
+
+        .nav-link {
+            outline: none;
+        }
+
+        @media screen and (min-width: 992px) {
+            .navbar-collapse {
+                width: fit-content;
+            }
+        }
+
+
+        /* 側邊選單 */
+
+        .side-menu {
+            width: 17rem;
+            height: 50%;
+            background-color: hsla(205, 66%, 29%, .8);
+            opacity: 0.8;
+            display: flex;
+            top: 16.1rem;
+            flex-direction: column;
+            padding: 3rem 0 0.5rem 0;
+            box-sizing: border-box;
+            box-shadow: 5px 0px 10px hsla(240, 40%, 15%, .6);
+            position: fixed;
+            transform: translateX(-100%);
+            transition: .3s;
+            z-index: 990;
+        }
+
+        .side-menu form {
+            display: flex;
+            margin: 0 20px 20px;
+            border-radius: 100px;
+            border: 1px solid rgb(255, 255, 255, .4);
+        }
+
+        .side-menu form input,
+        .side-menu form button {
+            border: none;
+            padding: 5px 10px;
+            background-color: transparent;
+            color: rgb(255, 255, 255);
+        }
+
+        .side-menu form input {
+            width: 230px;
+        }
+
+        .side-menu form input::placeholder {
+            color: rgb(235, 223, 184);
+            font-weight: 400;
+        }
+
+        .side-menu form button {
+            width: 50px;
+        }
+
+        .side-menu form input:focus,
+        .side-menu form button:focus {
+            outline: none;
+        }
+
+        .side-menu label {
+            position: absolute;
+            width: 40px;
+            height: 60px;
+            background-color: #000;
+            opacity: 0.7;
+            color: #fff;
+            right: -40px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            line-height: 60px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 0 10px 10px 0;
+            cursor: pointer;
+        }
+
+        #side-menu-switch {
+            position: absolute;
+            opacity: 0;
+            z-index: -1;
+        }
+
+        #side-menu-switch:checked+.side-menu {
+            transform: translateX(0);
+        }
+
+        #side-menu-switch:checked+.side-menu label .fas {
+            /* 這兩個寫法都可以旋轉 180度 */
+            /* transform: scaleX(-1); */
+            transform: rotate(180deg);
+
+        }
+
+        .attractions {
+            overflow: auto;
+            color: #fff;
+        }
+
+        .box {
+            /* border-bottom: 1px solid rgb(172, 170, 170); */
+            padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+            margin: 0.5rem;
+            cursor: pointer;
+        }
+
+        .box:hover {
+            background-color: rgb(66, 65, 65);
+            /* color: #000; */
+        }
+
+        .searchButton {
+            color: #fff;
+            margin-right: 10px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <!-- <div class="container-fluid"> -->
+                <a class="navbar-brand" href="#">台灣景點查詢 Taiwan Spots</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                北部 North
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item taipei" href="#" data-control="臺北市">臺北市 Taipei City</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="新北市">新北市 New Taipei City</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="基隆市">基隆市 Keelung City</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="桃園市">桃園市 Taoyuan City</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="新竹市">新竹市 Hsinchu City</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="新竹縣">新竹縣 Hsinchu County</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="宜蘭縣">宜蘭縣 Yilan County</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                中部 Central
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#" data-control="苗栗縣">苗栗縣 Miaoli County</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="臺中市">臺中市 Taichung City</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="彰化縣">彰化縣 Changhua County</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="南投縣">南投縣 Nantou County</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="雲林縣">雲林縣 Yunlin County</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                南部 South
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#" data-control="嘉義市">嘉義市 Chiayi City</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="嘉義縣">嘉義縣 Chiayi County</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="臺南市">臺南市 Tainan City</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="高雄市">高雄市 Kaohsiung City</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="屏東縣">屏東縣 Pingtung County</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="澎湖縣">澎湖縣 Penghu County</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                東部 East
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#" data-control="花蓮縣">花蓮縣 Hualien County</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="臺東縣">臺東縣 Taitung County</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                金馬 Kinmen-Mazu
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#" data-control="金門縣">金門縣 Kinmen County</a></li>
+                                <li><a class="dropdown-item" href="#" data-control="連江縣">連江縣 Lienchiang County</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container-fluid w-100">
+                    <div class="row town">
+                        <div class="dropdown-menu-town">
+                            <!--注意這裡目前是 div 可以考慮，改成ul?-->
+                            <!-- <li><a class="dropdown-menu-townitem" href="#">恆春鎮</a></li> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </nav>
+        </div>
+    </div>
+
+    <!-- <div class="container"> -->
+    <input type="checkbox" id="side-menu-switch">
+
+    <div class="side-menu">
+        <form action="">
+            <!-- <input type="search" placeholder="請輸入關鍵字" class="inputBox">
+            <a class="searchButton"><i class="fas fa-search"></i></a> -->
+        </form>
+        <div class="attractions">
+            <!-- <div class="box">
+                <div>
+                    <div class="content">福德水車</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div>
+                    <div class="content">福德水車</div>
+                </div>
+            </div> -->
+        </div>
+        <label for="side-menu-switch">
+            <i class="fas fa-angle-right"></i>
+        </label>
+    </div>
+    <!-- </div> -->
+
+
+
+    <div id="map"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+        </script>
+
+
+
+    <script>
+        let jsonData;
+        let myNewArray = [];
+
+        //顯示出對應縣市的marker
+        let regionMarkers = [];
+
+        //顯示對應鄉鎮區marker
+        let townMarkers = [];
+
+        let attractionsDiv = document.querySelector(".attractions");
+        var infoWindow;
+        var map;
+        var everyAttraction;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 8,
+                center: new google.maps.LatLng(23.8398335, 120.4220497),
+            });
+
+            infoWindow = new google.maps.InfoWindow();
+
+            map.addListener('click', function () {
+                if (infoWindow) infoWindow.close();
+            });
+        }
+
+
+        window.onload = (function () {
+            getData();
+        });
+
+        document.onselectstart = new Function("return false");
+
+        document.querySelector(".navbar-brand").addEventListener("click", function () {
+            window.location.reload();
+        });
+
+        // const cors = 'https://cors-anywhere.herokuapp.com/'; // use cors-anywhere to fetch api data
+        // const url = "https://cors-anywhere.herokuapp.com/https://bsopendata.azurewebsites.net/api/LeisureTravel/Attractions"; // origin api url
+
+        function getData() {
+            fetch("https://raw.githubusercontent.com/linooohon/googlemap/main/%E6%99%AF%E9%BB%9E.json", {
+                // headers: new Headers({
+                //     'Content-Type': 'application/json'
+                // }),
+            })
+                .then((response) => {
+                    console.log(response);
+                    return response.json();
+                })
+                .then((jsonData) => {
+                    transForm(jsonData);
+                })
+                .catch((err) => {
+                    console.log("錯誤:", err);
+                });
+        }
+
+        function transForm(jsonObj) {
+            let target = jsonObj.XML_Head.Infos.Info;
+            target.forEach((item) => {
+                //zIndex = zIndex + 1;
+                myNewObj = {
+                    id: item.Id,
+                    name: item.Name,
+                    description: item.Description,
+                    tel: item.Tel,
+                    address: item.Add,
+                    region: item.Region,
+                    town: item.Town,
+                    px: item.Px,
+                    py: item.Py,
+                    //zindex: zIndex
+                }
+                myNewArray.push(myNewObj)
+            });
+        }
+
+        //--------------------------------------------
+
+        //點擊北中南東離島綁事件跑showRegionMarker - 綁父層 - 取得子層縣市處理
+        document.querySelector(".navbar-nav").addEventListener("click", showRegionMarker);
+
+        function showRegionMarker(e) {
+            attractionsDiv.innerHTML = "";
+            e.preventDefault(); //阻止a連結預設的跳轉網頁練習用
+            regionMarkers.forEach((marker) => marker.setMap(null)); //消除前次縣市marker
+            townMarkers.forEach((marker) => marker.setMap(null)); //消除前次鄉鎮區marker
+            myNewArray.forEach((element) => {
+                if (element.region == e.target.dataset.control) {
+
+                    addMarker({
+                        coords: {
+                            lat: element.py,
+                            lng: element.px
+                        },
+                        content: `<div class="content">${element.name}<hr>${element.tel}<br>${element.address}</div>` +
+                            `<div class="content">${element.description}</div>`
+                    });
+
+                    map.setCenter({
+                        lat: element.py,
+                        lng: element.px
+                    });
+                    map.setZoom(11);
+
+                    everyAttraction = element;
+
+                    let contentDiv = document.createElement("div");
+                    // contentDiv.innerHTML = `${element.name}<br>${element.tel}<br>${element.address}`;
+                    contentDiv.innerHTML = `${element.name}`;
+                    contentDiv.classList.add("box");
+                    contentDiv.setAttribute("data-py", `${element.py}`);
+                    contentDiv.setAttribute("data-px", `${element.px}`);
+                    attractionsDiv.appendChild(contentDiv);
+                }
+            });
+        }
+        // ----------------------------
+
+        //點擊縣市綁事件跑countTownFunc - 綁父層 - 取得子層縣市處理
+        document.querySelector(".navbar-nav").addEventListener("click", countTownFunc);
+
+        //顯示出縣市對應的鄉鎮區
+        let countTown = [];
+        let townDiv = document.querySelector(".dropdown-menu-town");
+
+        function countTownFunc(e) {
+            e.preventDefault();
+            townDiv.innerHTML = "";
+            countTown = [];
+            myNewArray.forEach((element) => {
+                if (element.region == e.target.dataset.control) {
+                    countTown.push(element.town);
+                }
+            });
+            //console.log(countTown);
+
+            let result = countTown.sort().reduce((init, current) => {
+                if (init.length === 0 || init[init.length - 1] !== current) {
+                    init.push(current);
+                }
+                return init;
+            }, []);
+            //console.log(result);
+
+            result.forEach((item) => {
+                let li = document.createElement("li");
+                let a = document.createElement("a");
+                a.innerText = item;
+                a.classList.add("dropdown-menu-townitem");
+                li.setAttribute("data-region", e.target.dataset.control);
+                li.setAttribute("class", "region-name");
+                li.appendChild(a);
+                // townDiv.style.border = "1px solid rgb(116, 114, 114)";
+                townDiv.appendChild(li);
+            });
+        }
+
+        //--------------------------------
+
+        //點擊縣市ul 綁父層跑showTownMarker - 取得子li處理
+        document.querySelector(".dropdown-menu-town").addEventListener("click", showTownMarker);
+
+        function showTownMarker(e) {
+            attractionsDiv.innerHTML = "";
+            let li = document.querySelector(".region-name");
+            e.preventDefault(); //阻止a連結預設的跳轉網頁練習用
+            regionMarkers.forEach((marker) => marker.setMap(null)); //消除前次縣市 marker
+            townMarkers.forEach((marker) => marker.setMap(null)); //消除前次鄉鎮區 marker
+            myNewArray.forEach((element) => {
+                if (element.region == li.dataset.region &&
+                    element.town == e.target.innerText) {
+
+                    addMarker({
+                        coords: {
+                            lat: element.py,
+                            lng: element.px
+                        },
+                        content: `<div class="content">${element.name}<hr>${element.tel}<br>${element.address}</div>` +
+                            `<div class="content">${element.description}</div>`
+                    });
+
+                    map.setCenter({
+                        lat: element.py,
+                        lng: element.px
+                    });
+                    map.setZoom(12);
+
+                    everyAttraction = element;
+
+                    let contentDiv = document.createElement("div");
+                    // contentDiv.innerHTML = `${element.name}<br>${element.tel}<br>${element.address}`;
+                    contentDiv.innerHTML = `${element.name}`;
+                    contentDiv.classList.add("box");
+                    contentDiv.setAttribute("data-py", `${element.py}`);
+                    contentDiv.setAttribute("data-px", `${element.px}`);
+                    attractionsDiv.appendChild(contentDiv);
+                }
+            });
+        }
+
+        //--------------------------------------------------------
+
+        function addMarker(props) {
+            var marker = new google.maps.Marker({
+                position: props.coords,
+                map: map
+            });
+
+            regionMarkers.push(marker);
+            townMarkers.push(marker);
+
+            if (props.content) {
+                marker.addListener('click', function () {
+                    infoWindow.setContent(props.content);
+                    infoWindow.open(map, marker);
+                });
+            }
+        }
+
+        function showAttractionSummary() {
+            let div = document.createElement("div");
+            let contentDiv = document.createElement("div");
+            contentDiv.innerHTML = `<div class="content">${element.name}</div>`;
+            div.appendChild(contentDiv);
+            let attractionsDiv = document.querySelector(".attractions");
+            attractionsDiv.appendChild(div);
+        }
+
+        attractionsDiv.addEventListener("click", (e) => {
+            console.log(e.target);
+
+            map.setCenter({
+                lat: parseFloat(e.target.dataset.py),
+                lng: parseFloat(e.target.dataset.px)
+            });
+            map.setZoom(20);
+            console.log(`${e.target.dataset.py}`, `${e.target.dataset.px}`);
+        });
+
+        function filter(event){
+        //    event.preventDefault();
+            console.log(document.querySelector(".inputBox").value);
+            let searchWord = document.querySelector(".inputBox").value;
+            myNewArray.forEach((item) => {
+                let resultArray = [];
+                if(item.includes(searchWord)) {
+                    resultArray.push(item);
+                }
+            });
+        }
+
+        // document.querySelector(".searchButton").addEventListener("click", filter);
+        // document.querySelector(".fa-search").addEventListener("click", filter(event));
+        
+    </script>
+</body>
+
+</html>
